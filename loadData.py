@@ -1,3 +1,6 @@
+# Functions for loading the datasets are based on code from
+# https://github.com/tudo-ls8/arch-forest
+
 import numpy as np
 
 def readFileMNIST(path):
