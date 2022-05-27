@@ -2,13 +2,13 @@
 A framework built on top of sklearn for error evaluations of tree-based models
 
 Instructions:
-- Uninstall the sklearn library installed on your device.
+- Uninstall the sklearn library installed on your device (or use a new virtual environment).
 - Pull the [fork of sklearn](https://github.com/myay/BETRF) with error tolerance analysis extension.
 - Check out the branch called "bet".
 - For first time installation of the sklearn with the error evaluation extension, run the following command in the root folder of sklearn: `python3 -m pip install --editable .`.
 - After the first time install, when the source of sklearn is modified, it can be compiled using: `python3 -m pip install --verbose --no-build-isolation --editable .`.
 - To test TREAM, first download the MNIST dataset to the folder `data/mnist` using the script and then run the following command: `python3 run_exp.py --model=RF --dataset=MNIST --depth=4 --estims=3 --store-model=1 --trials=3 --splitval-inj=1 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --export-accuracy=1`.
-- To check the experiment results, go to folder the `experiments` then go to the folder with the time stamp of the experiments, and view the `results.txt`. The model will also be stored here as a `.pkl`, which can be loaded again into the framework.
+- To check the experiment results, go to folder `experiments` then go to the folder with the time stamp of the experiments, and view the `results.txt`. The model will also be stored here as a `.pkl`, which can be loaded again into the framework.
 
 Here is a list of the command line parameters for running the error evaluations with TREAM:
 | Command line parameter | Options |
