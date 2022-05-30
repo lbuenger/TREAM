@@ -23,7 +23,7 @@ Here is a list of the command line parameters for running the error evaluations 
 | --featval-inj | 0/1, whether to inject bit errors into the feature values, default: 0 |
 | --featidx-inj | 0/1, whether to inject bit errors into the feature indices, default: 0 |
 | --chidx-inj | 0/1, whether to inject bit errors into the child indices, default: 0 |
-| --int-split | 0/1, whether to use integer representation for slits, default: 0 |
+| --int-split | 0/1, whether to use integer representation for splits, default: 0 |
 | --true-majority | 0/1, whether to use the true majority, instead of the standard weighted majority, default: 0 |
 | --store-model | 0/1, whether to dump the model file, default:0 |
 | --load-model | String, loads a model from the speficied path in the string, default: 0 |
