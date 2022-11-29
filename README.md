@@ -30,4 +30,20 @@ Here is a list of the command line parameters for running the error evaluations 
 
 More information on the command line parameters can be found [here](https://github.com/myay/TREAM/blob/main/Utils.py#L7).
 
+If you find TREAM useful in your work, please cite the following source:
+
+[Mikail Yayla, Zahra Valipour Dehnoo, Mojtaba Masoudinejad, Jian-Jia Chen "TREAM: A Tool for Evaluating Error Resilience of Tree-Based Models Using Approximate Memory". Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS), 2022.](https://link.springer.com/chapter/10.1007/978-3-031-15074-6_4)
+
+```
+@InProceedings{yayla-samos/etal/2022,
+  author="Yayla, Mikail
+  and Valipour Dehnoo, Zahra
+  and Masoudinejad, Mojtaba
+  and Chen, Jian-Jia",
+  title="TREAM: A Tool for Evaluating Error Resilience of Tree-Based Models Using Approximate Memory",
+  booktitle="Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS)",
+  year="2022",
+}
+```
+
 Please contact me if you have any questions: mikail.yayla@tu-dortmund.de.
