@@ -1,0 +1,1 @@
+python3.8 ../run_exp.py --model=RSD_TEST --dataset=ADULT --depth=5 --estims=5 --trials=1 --splitval-inj=1 --featval-inj=1 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1

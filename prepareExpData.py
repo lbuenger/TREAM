@@ -1,5 +1,5 @@
 from sklearn.model_selection import train_test_split
-from loadData import readFileMNIST, readFileAdult, readFileSensorless, readFileWinequality, readFileSpamBase, readFileWearable, readFileLetter
+from loadData import readFileMNIST, readFileAdult, readFileSensorless, readFileWinequality, readFileWine, readFileTicTacToe, readFileOccupancy, readFileSpamBase, readFileWearable, readFileLetter
 from sklearn.datasets import load_iris, fetch_olivetti_faces, fetch_covtype
 from Utils import quantize_data
 import numpy as np
@@ -30,6 +30,8 @@ def getData(dataset, this_path, nr_bits_split, nr_bits_feature, random_state):
         X = X.astype(np.uint8)
         # rint = np.random.randint(low=1, high=100)
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=random_state)
+        # with open('output.txt', 'a') as f:
+        #     f.write(np.array2string(X))
 
     if dataset == "ADULT":
         # nr_bits_split = 8 # int, use 32 for fp
@@ -60,6 +62,24 @@ def getData(dataset, this_path, nr_bits_split, nr_bits_feature, random_state):
         # rint = np.random.randint(low=1, high=100)
         X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.33, random_state=random_state)
+
+    if dataset == "WINE":
+        dataset_path = "data/wine/"
+        X, y = readFileWine(dataset_path)
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=random_state)
+
+    if dataset == "TIC-TAC-TOE":
+        dataset_path = "data/tic-tac-toe/"
+        X, y = readFileTicTacToe(dataset_path)
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=random_state)
+
+    if dataset == "OCCUPANCY":
+        dataset_path = "data/occupancy/"
+        X, y = readFileOccupancy(dataset_path)
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=random_state)
 
     if dataset == "OLIVETTI":
         # nr_bits_split = 8
@@ -125,5 +145,16 @@ def getData(dataset, this_path, nr_bits_split, nr_bits_feature, random_state):
         X, y, test_size=0.33, random_state=random_state)
         X_train = quantize_data(X_train, nr_bits_feature)
         X_test = quantize_data(X_test, nr_bits_feature)
+
+    if dataset == "WEATHERAUS":
+        # nr_bits_split = 8
+        # nr_bits_feature = 8
+        dataset_train_path = "/data/weatheraus/train.csv"
+        dataset_test_path = "/data/weatheraus/test.csv"
+        train_path = this_path + dataset_train_path
+        test_path = this_path + dataset_test_path
+        X_train, y_train = readFileMNIST(train_path)
+        X_test, y_test = readFileMNIST(test_path)
+        print("hey")
 
     return X_train, y_train, X_test, y_test

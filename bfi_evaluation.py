@@ -18,10 +18,12 @@ def get_nr_child_idx(clf):
     while len(stack) > 0:
         # `pop` ensures each node is only visited once
         node_id, depth = stack.pop()
+        #print("node_id = ", node_id)
         node_depth[node_id] = depth
 
         # If the left and right child of a node is not the same we have a split
         # node
+        #print("children_left[node_id]: ", children_left[node_id], ", children_right[node_id]: ", children_right[node_id])
         is_split_node = children_left[node_id] != children_right[node_id]
         # If a split node, append left and right children and depth to `stack`
         # so we can loop through them
@@ -120,6 +122,7 @@ def bfi_tree(exp_dict):
         if child_idx_inj == 1:
             # TODO: execute once before bet experiments
             nr_ch_idx = get_nr_child_idx(tree)
+            #print("hä1")
             nr_ch_idx *= 2
             tree.tree_.nr_child_idx = np.floor(np.log2(nr_ch_idx)) + 1
             tree.tree_.bit_error_rate_chidx = ber
@@ -152,11 +155,16 @@ def bfi_tree(exp_dict):
         # print("{:.8f} {:.4f} {:.4f} {:.4f}\n".format(ber*100, (acc_mean)*100, (acc_max - acc_mean)*100, (acc_mean - acc_min)*100))
         exp_data.close()
 
+        #print("hä")
+
         # reset configs
         tree.tree_.bit_flip_injection_split = 0
         tree.tree_.bit_flip_injection_featval = 0
         tree.tree_.bit_flip_injection_featidx = 0
         tree.tree_.bit_flip_injection_chidx = 0
+
+        print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min,
+                                                                     acc_max - acc_mean))
 
     # TODO: export accuracy in a certain format
     if export_accuracy is not None:
@@ -211,8 +219,16 @@ def bfi_forest(exp_dict):
     exp_data.write("(Summary) trees: {}, depth: {}, reps: {}, dataset: {}\n".format(estims, depth, reps, dataset_name))
     # exp_data.close()
 
+    # Added by me
+    summarize = exp_dict["summarize"]
+    #complete_trees = exp_dict["complete_trees"]
+    exact_chidx_error = exp_dict["exact_chidx_error"]
+
     accuracy_all = []
-    for ber in bers:
+    accuracy_sum = []
+    output = ["", "", "", "", "", "", "", "", "", "", ""]
+    # output = ["BERs, rsdt0, rsdt5, rsdt10, rsdt15, rsdt20, rsdt25, rsdt30, rsdt35, rsdt40, rsdt45, rsdt50", "0.0000", "0.0001", "0.0010", "0.0100", "0.1000", "0.2000", "0.4000", "0.6000", "0.8000", "1.0000"]
+    for idx, ber in enumerate(bers):
         exp_data = open(exp_path + "/results.txt", "a")
         for tree in clf.estimators_:
             # reset configs
@@ -245,6 +261,7 @@ def bfi_forest(exp_dict):
             if child_idx_inj == 1:
                 # TODO: execute once before bet experiments
                 nr_ch_idx = get_nr_child_idx(tree)
+                print("hä")
                 nr_ch_idx *= 2
                 tree.tree_.nr_child_idx = np.floor(np.log2(nr_ch_idx)) + 1
                 tree.tree_.bit_error_rate_chidx = ber
@@ -255,6 +272,7 @@ def bfi_forest(exp_dict):
             if true_majority == 0:
                 # weighted majority vote
                 out = clf.predict(X_test)
+                #print(out)
                 acc_scores.append(accuracy_score(y_test, out))
             else:
                 ### true maj. vote (for ECML paper)
@@ -289,7 +307,11 @@ def bfi_forest(exp_dict):
         # print("means:", acc_mean)
         acc_min = np.min(acc_scores_np)
         acc_max = np.max(acc_scores_np)
-        # print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
+        accuracy_sum.append(acc_mean)
+        if(not summarize):
+            print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
+            output[idx+1] += ",{:.4f}".format(acc_mean)
+            # print("{:.4f},{:.4f}".format(ber, acc_mean))
         # exp_data = open(exp_path + "/results.txt", "a")
         exp_data.write("{:.8f} {:.4f} {:.4f} {:.4f}\n".format(ber, (acc_mean), (acc_max - acc_mean), (acc_mean - acc_min)))
 
@@ -313,6 +335,9 @@ def bfi_forest(exp_dict):
             tree.tree_.bit_flip_injection_featidx = 0
             tree.tree_.bit_flip_injection_chidx = 0
 
+    if(summarize):
+        print("Accuracy total: {:.4f}".format(np.mean(accuracy_sum)))
+
     # TODO: export accuracy in a certain format
     if export_accuracy is not None:
         dim_1_all = []
@@ -325,3 +350,13 @@ def bfi_forest(exp_dict):
         filename = exp_path + f"/acc_over_ber_RF_D{depth}_T{estims}_{dataset_name}_reps_{reps}.npy"
         with open(filename, 'wb') as f:
         	np.save(f, stacked)
+
+    with open('output.txt', 'r') as f:
+        lines = [line.rstrip() for line in f]
+
+    #print(lines)
+    #print(output)
+
+    with open('output.txt', 'w') as f:
+        for idx, line in enumerate(output):
+            f.write(lines[idx] + f"{line}\n")

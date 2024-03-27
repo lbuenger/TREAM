@@ -1,7 +1,11 @@
 # Functions for loading the datasets are based on code from
 # https://github.com/tudo-ls8/arch-forest
+from datetime import datetime
 
 import numpy as np
+
+import sys
+#np.set_printoptions(threshold=sys.maxsize)
 
 def readFileMNIST(path):
     X = []
@@ -292,6 +296,88 @@ def readFileWinequality(dataset_path):
     Y = Y-min(Y)
     return X, Y
 
+def readFileWine(dataset_path):
+    dataset_path = dataset_path + "wine.data"
+    data = np.genfromtxt(dataset_path, delimiter=',')
+    X = data[:, 1:]
+    Y = data[:,0]
+    Y = Y-min(Y)
+    # print(Y)
+    return X, Y
+
+def readFileTicTacToe(dataset_path):
+    dataset_path = dataset_path + "tic-tac-toe.data"
+    numbers = ""
+
+    X = []
+    Y = []
+
+    with open(dataset_path) as f:
+        data = f.read()
+        #print(data)
+    for x in data.replace("\n", ",").split(","):
+        #print(x)
+        if x == "b":
+            X.append(0)
+            #print("b")
+        elif x == "x":
+            X.append(1)
+            #print("x")
+        elif x == "o":
+            X.append(2)
+            #print("o")
+        elif x == "positive":
+            #print("positive\n")
+            Y.append(1)
+        elif x == "negative":
+            #print("negative\n")
+            Y.append(0)
+
+
+    #print(numbers)
+    X = np.reshape(X, (int(len(X)/9), 9))
+    #print(X)
+    #print(Y)
+    return np.array(X), np.array(Y)
+
+def readFileOccupancy(dataset_path):
+    dataset_path1 = dataset_path + "datatest.txt"
+    dataset_path2 = dataset_path + "datatest2.txt"
+    dataset_path3 = dataset_path + "datatraining.txt"
+    X = []
+    Y = []
+
+    with open(dataset_path1) as f:
+        data = f.read()
+    with open(dataset_path2) as f:
+        data += f.read()
+    with open(dataset_path3) as f:
+        data += f.read()
+
+    for line in data[:-1].split("\n"):
+        x = []
+        values = line.split(",")
+
+        if(values[0] == "\"date\""):
+            continue
+
+        x.append(datetime.strptime(values[1].replace("\"", ""), '%Y-%m-%d %H:%M:%S').strftime("%Y%m%d%H%M%S"))
+        x.append(int(float(values[2])*100))
+        x.append(int(float(values[3])*1000))
+        x.append(int(float(values[4])*10))
+        x.append(int(float(values[5])*100))
+        Y.append(values[7])
+
+        X.append(x)
+
+    # print(X)
+    # print(Y)
+
+    X = np.array(X)
+    Y = np.array(Y)
+
+    return X, Y
+
 def readFileSpamBase(path):
     f = open(path, 'r')
     X = []
@@ -351,8 +437,16 @@ def readFileLetter(path):
         entries = row.strip().split(",")
         x = [int(e) for e in entries[1:]]
         y = ord(entries[0]) - 65
-
+    
         X.append(x)
         Y.append(y)
 
     return np.array(X).astype(dtype=np.int32), np.array(Y)
+
+def readFileWeatherAus(path):
+    f = open(path, 'r')
+    X = []
+    Y = []
+    for row in f:
+            entries = row.strip().split(",")
+

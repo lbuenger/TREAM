@@ -34,6 +34,13 @@ def parse_args(parser):
                         help='random seed (default: 42)')
     parser.add_argument('--export-accuracy', type=int, default=None, help='Bit flip injection')
 
+    # settings by me
+    parser.add_argument('--summarize', type=int, default=0, help='Summarize over all BERs (activate with 1)')
+    #parser.add_argument('--complete_trees', type=bool, default=0, help='Use Robust Complete Trees (activate with 1)')
+    parser.add_argument('--complete_trees', type=int, default=0, help='Use Robust Complete Trees (activate with 1)')
+    parser.add_argument('--exact_chidx_error', type=int, default=0, help='Dont abort on chidx error immediately (activate with 1)')
+
+
 def create_exp_folder(this_path):
     exp_path = ""
     access_rights = 0o755
@@ -44,7 +51,7 @@ def create_exp_folder(this_path):
     except OSError:
         print ("Creation of the directory %s failed" % exp_path)
     else:
-        print ("Successfully created the directory %s" % exp_path)
+        # print ("Successfully created the directory %s" % exp_path)
         return exp_path
 
 def store_exp_data_dict(exp_data):
@@ -55,7 +62,7 @@ def store_exp_data_dict(exp_data):
 def store_exp_data_write(to_dump_path, to_dump_data):
     with open(to_dump_path, 'a') as outfile:
         json.dump(to_dump_data, outfile)
-        print ("Successfully stored results in %s" % to_dump_path)
+        # print ("Successfully stored results in %s" % to_dump_path)
 
 def bit_error_rates_generator(p2exp):
     temp = [1, 2.5, 5.0, 7.5] # steps between powers of 10
