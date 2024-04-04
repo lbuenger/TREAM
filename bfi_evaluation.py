@@ -128,13 +128,18 @@ def bfi_tree(exp_dict):
             tree.tree_.bit_error_rate_chidx = ber
             tree.tree_.bit_flip_injection_chidx = 1
 
+        #print("test")
+
         acc_scores = []
         for rep in range(reps):
             out = tree.predict(X_test)
+            #print("out=", out)
             acc_scores.append(accuracy_score(y_test, out))
         acc_scores_np = np.array(acc_scores)
         # print("ACC scores", acc_scores_np)
+        #print("test2")
         acc_mean = np.mean(acc_scores_np)
+        #print("test3")
         # print("means:", acc_mean)
         acc_min = np.min(acc_scores_np)
         acc_max = np.max(acc_scores_np)

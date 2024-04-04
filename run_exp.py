@@ -58,14 +58,15 @@ def main():
 
     #Added for complete trees/whatever
     complete_trees = args.complete_trees        # 1 if complete trees should be used
-    #complete_trees = 1
+    #complete_trees = 0
     summarize = args.summarize                  # 1 if accuracy scores should be summarized over all bers
     exact_chidx_error = args.exact_chidx_error  # 1 if chidx shouldn't be aborted immediately
 
-    print("args.complete_trees = ", args.complete_trees)
+    #print("args.complete_trees = ", args.complete_trees)
+    #print("random state: ", random_state)
 
     # read data
-    print(dataset)
+    #print(dataset)
     X_train, y_train, X_test, y_test = getData(dataset, this_path, nr_bits_split, nr_bits_feature, random_state)
 
     # create experiment folder and return the path to it
@@ -83,7 +84,8 @@ def main():
                 joblib.dump(model, exp_path + f"/D{depth}_{dataset}.pkl", compress=9)
 
         if DT_RF == "RF":
-            clf = RandomForestClassifier(max_depth=depth, n_estimators=estims, complete_trees=complete_trees, random_state=random_state)
+            clf = RandomForestClassifier(max_depth=depth, n_estimators=estims, complete_trees=complete_trees,
+                                         random_state=random_state)
             model = clf.fit(X_train, y_train, complete_trees)
             if store_model is not None:
                 joblib.dump(model, exp_path + f"/D{depth}_T{estims}_{dataset}.pkl", compress=9)
