@@ -1,0 +1,63 @@
+0, node,		depth: 0, placeholder_depth: 0, is_leaf: 0
+1, node,		depth: 1, placeholder_depth: 0, is_leaf: 0
+2, node,		depth: 1, placeholder_depth: 0, is_leaf: 0
+3, node,		depth: 2, placeholder_depth: 0, is_leaf: 0
+4, root copy,		depth: 2, placeholder_depth: 0, is_leaf: 0
+5, node,		depth: 2, placeholder_depth: 0, is_leaf: 0
+6, node,		depth: 2, placeholder_depth: 0, is_leaf: 0
+7, root copy,		depth: 3, placeholder_depth: 0, is_leaf: 0
+8, root copy,		depth: 3, placeholder_depth: 0, is_leaf: 0
+9, duplicate,		depth: 3, placeholder_depth: 1, is_leaf: 0, duplicates: 1, parent: 4
+10, dummy error node,	depth: 3, placeholder_depth: 1, is_leaf: 1, parent: 4
+11, root copy,		depth: 3, placeholder_depth: 0, is_leaf: 0
+12, node,		depth: 3, placeholder_depth: 0, is_leaf: 0
+13, node,		depth: 3, placeholder_depth: 0, is_leaf: 0
+14, root copy,		depth: 3, placeholder_depth: 0, is_leaf: 0
+15, duplicate,		depth: 4, placeholder_depth: 1, is_leaf: 0, duplicates: 1, parent: 7
+16, dummy error node,	depth: 4, placeholder_depth: 1, is_leaf: 1, parent: 7
+17, duplicate,		depth: 4, placeholder_depth: 1, is_leaf: 0, duplicates: 1, parent: 8
+18, dummy error node,	depth: 4, placeholder_depth: 1, is_leaf: 1, parent: 8
+19, dummy error node,	depth: 4, placeholder_depth: 2, is_leaf: 1, parent: 9
+20, leaf copy,		depth: 4, placeholder_depth: 2, is_leaf: 1, duplicates: 4, no duplicates
+21, dummy parent copy,	depth: 4, placeholder_depth: 2, is_leaf: 1, parent: 10
+22, dummy parent copy,	depth: 4, placeholder_depth: 2, is_leaf: 1, parent: 10
+23, dummy error node,	depth: 4, placeholder_depth: 1, is_leaf: 1, parent: 11
+24, duplicate,		depth: 4, placeholder_depth: 1, is_leaf: 0, duplicates: 2, parent: 11
+25, root copy,		depth: 4, placeholder_depth: 0, is_leaf: 0
+26, node,		depth: 4, placeholder_depth: 0, is_leaf: 0
+27, root copy,		depth: 4, placeholder_depth: 0, is_leaf: 0
+28, node,		depth: 4, placeholder_depth: 0, is_leaf: 0
+29, dummy error node,	depth: 4, placeholder_depth: 1, is_leaf: 1, parent: 14
+30, duplicate,		depth: 4, placeholder_depth: 1, is_leaf: 0, duplicates: 2, parent: 14
+31, leaf copy,		depth: 5, placeholder_depth: 2, is_leaf: 1, duplicates: 7, max depth reached
+32, dummy error node,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 15
+33, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 16
+34, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 16
+35, leaf copy,		depth: 5, placeholder_depth: 2, is_leaf: 1, duplicates: 8, max depth reached
+36, dummy error node,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 17
+37, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 18
+38, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 18
+39, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 19
+40, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 19
+41, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 20
+42, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 20
+43, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 21
+44, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 21
+45, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 22
+46, dummy parent copy,	depth: 5, placeholder_depth: 3, is_leaf: 1, parent: 22
+47, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 23
+48, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 23
+49, leaf copy,		depth: 5, placeholder_depth: 2, is_leaf: 1, duplicates: 11, max depth reached
+50, dummy error node,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 24
+51, dummy error node,	depth: 5, placeholder_depth: 1, is_leaf: 1, parent: 25
+52, leaf copy,		depth: 5, placeholder_depth: 1, is_leaf: 1, duplicates: 25, max depth reached
+53, leaf,		depth: 5, placeholder_depth: 0, is_leaf: 1
+54, leaf,		depth: 5, placeholder_depth: 0, is_leaf: 1
+55, dummy error node,	depth: 5, placeholder_depth: 1, is_leaf: 1, parent: 27
+56, leaf copy,		depth: 5, placeholder_depth: 1, is_leaf: 1, duplicates: 27, max depth reached
+57, leaf,		depth: 5, placeholder_depth: 0, is_leaf: 1
+58, leaf,		depth: 5, placeholder_depth: 0, is_leaf: 1
+59, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 29
+60, dummy parent copy,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 29
+61, dummy error node,	depth: 5, placeholder_depth: 2, is_leaf: 1, parent: 30
+62, leaf copy,		depth: 5, placeholder_depth: 2, is_leaf: 1, duplicates: 14, max depth reached
