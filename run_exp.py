@@ -62,7 +62,7 @@ def main():
     summarize = args.summarize                  # 1 if accuracy scores should be summarized over all bers
     exact_chidx_error = args.exact_chidx_error  # 1 if chidx shouldn't be aborted immediately
 
-    #print("args.complete_trees = ", args.complete_trees)
+    #print("run_exp.py().complete_trees = ", complete_trees)
     #print("random state: ", random_state)
 
     # read data
@@ -79,14 +79,14 @@ def main():
     else:
         if DT_RF == "DT":
             clf = DecisionTreeClassifier(max_depth=depth, complete_trees=complete_trees, random_state=random_state)
-            model = clf.fit(X_train, y_train, complete_trees)
+            model = clf.fit(X_train, y_train, complete_trees=complete_trees)
             if store_model is not None:
                 joblib.dump(model, exp_path + f"/D{depth}_{dataset}.pkl", compress=9)
 
         if DT_RF == "RF":
             clf = RandomForestClassifier(max_depth=depth, n_estimators=estims, complete_trees=complete_trees,
                                          random_state=random_state)
-            model = clf.fit(X_train, y_train, complete_trees)
+            model = clf.fit(X_train, y_train, complete_trees=complete_trees)
             if store_model is not None:
                 joblib.dump(model, exp_path + f"/D{depth}_T{estims}_{dataset}.pkl", compress=9)
 
@@ -100,7 +100,7 @@ def main():
                     f.write(f"{line}\n")
             for rsdt in range(0, 51, 5):
                 clf = RandomForestClassifier(max_depth=depth, n_estimators=estims, rsdt=rsdt, complete_trees=complete_trees, random_state=random_state)
-                model = clf.fit(X_train, y_train, rsdt, complete_trees)
+                model = clf.fit(X_train, y_train, rsdt, complete_trees=complete_trees)
                 if store_model is not None:
                     joblib.dump(model, exp_path + f"/D{depth}_T{estims}_{dataset}.pkl", compress=9)
                 expdata_dict = {
