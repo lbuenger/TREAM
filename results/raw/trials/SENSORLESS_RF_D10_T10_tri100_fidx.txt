@@ -1,0 +1,11 @@
+python3.8 run_exp.py --model=RF --dataset=SENSORLESS --splitval-inj=0 --featval-inj=0 --featidx-inj=1 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=100 --depth=10 --estims=10
+BER: 0.0000, Accuracy: 0.9900 (-0.0000,0.0000)
+BER: 0.0001, Accuracy: 0.9900 (0.0002,0.0003)
+BER: 0.0010, Accuracy: 0.9897 (0.0005,0.0004)
+BER: 0.0100, Accuracy: 0.9862 (0.0015,0.0014)
+BER: 0.1000, Accuracy: 0.6931 (0.0078,0.0069)
+BER: 0.2000, Accuracy: 0.3328 (0.0068,0.0109)
+BER: 0.4000, Accuracy: 0.1376 (0.0047,0.0061)
+BER: 0.6000, Accuracy: 0.1045 (0.0048,0.0058)
+BER: 0.8000, Accuracy: 0.0964 (0.0034,0.0060)
+BER: 1.0000, Accuracy: 0.1007 (0.0001,0.0000)

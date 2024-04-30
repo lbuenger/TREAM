@@ -1,0 +1,11 @@
+python3.8 run_exp.py --model=RF --dataset=IRIS --splitval-inj=0 --featval-inj=0 --featidx-inj=0 --chidx-inj=1  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10
+BER: 0.0000, Accuracy: 0.9400 (-0.0000,0.0000)
+BER: 0.0001, Accuracy: 0.9480 (0.0080,0.0120)
+BER: 0.0010, Accuracy: 0.9140 (0.3540,0.0660)
+BER: 0.0100, Accuracy: 0.2800 (0.0000,-0.0000)
+BER: 0.1000, Accuracy: 0.2800 (0.0000,-0.0000)
+BER: 0.2000, Accuracy: 0.2800 (0.0000,-0.0000)
+BER: 0.4000, Accuracy: 0.2800 (0.0000,-0.0000)
+BER: 0.6000, Accuracy: 0.2800 (0.0000,-0.0000)
+BER: 0.8000, Accuracy: 0.2800 (0.0000,-0.0000)
+BER: 1.0000, Accuracy: 0.2800 (0.0000,-0.0000)

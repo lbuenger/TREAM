@@ -1,0 +1,11 @@
+python3.8 run_exp.py --model=DT --dataset=ADULT --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10
+BER: 0.0000, Accuracy: 0.7844 (0.0000,0.0000)
+BER: 0.0001, Accuracy: 0.7843 (0.0001,0.0002)
+BER: 0.0010, Accuracy: 0.7840 (0.0005,0.0005)
+BER: 0.0100, Accuracy: 0.7820 (0.0012,0.0018)
+BER: 0.1000, Accuracy: 0.7644 (0.0018,0.0012)
+BER: 0.2000, Accuracy: 0.7576 (0.0012,0.0010)
+BER: 0.4000, Accuracy: 0.7529 (0.0010,0.0007)
+BER: 0.6000, Accuracy: 0.7520 (0.0003,0.0003)
+BER: 0.8000, Accuracy: 0.7519 (0.0000,0.0000)
+BER: 1.0000, Accuracy: 0.7519 (0.0000,0.0000)

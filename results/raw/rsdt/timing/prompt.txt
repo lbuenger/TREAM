@@ -1,0 +1,1 @@
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=IRIS/TIC_TAC_TOE/OCCUPANCY/WINE/ADULT/LETTER/SENSORLESS/MNIST --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=0/25/50

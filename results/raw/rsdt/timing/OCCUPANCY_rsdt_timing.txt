@@ -1,0 +1,12 @@
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=OCCUPANCY --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1
+Building time:  0.9644789695739746
+Evaluation time:  71.87952637672424
+
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=OCCUPANCY --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=25
+Building time:  0.941450834274292
+Evaluation time:  72.4984884262085
+
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=OCCUPANCY --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=50
+Building time:  0.9442293643951416
+Evaluation time:  69.85123920440674
+

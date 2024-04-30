@@ -1,0 +1,11 @@
+python3.8 run_exp.py --model=DT --dataset=MNIST --splitval-inj=0 --featval-inj=1 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10
+BER: 0.0000, Accuracy: 0.8663 (0.0000,-0.0000)
+BER: 0.0001, Accuracy: 0.8658 (0.0005,0.0004)
+BER: 0.0010, Accuracy: 0.8620 (0.0007,0.0005)
+BER: 0.0100, Accuracy: 0.8255 (0.0030,0.0047)
+BER: 0.1000, Accuracy: 0.5006 (0.0154,0.0082)
+BER: 0.2000, Accuracy: 0.2879 (0.0072,0.0050)
+BER: 0.4000, Accuracy: 0.1284 (0.0040,0.0065)
+BER: 0.6000, Accuracy: 0.0833 (0.0026,0.0045)
+BER: 0.8000, Accuracy: 0.0588 (0.0028,0.0036)
+BER: 1.0000, Accuracy: 0.0817 (0.0000,0.0000)

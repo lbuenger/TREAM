@@ -7,12 +7,12 @@ import json
 def parse_args(parser):
 
     # model configurations
-    parser.add_argument('--model', type=str, default="DT",
+    parser.add_argument('--model', nargs="+", type=str, default={"DT"},
                     help='DT/RF')
-    parser.add_argument('--dataset', type=str, default=None,
+    parser.add_argument('--dataset', nargs="+", type=str, default=None,
                     help='MNIST/IRIS/ADULT/SENSORLESS/WINEQUALITY/OLIVETTI/COVTYPE/SPAMBASE/WEARABLE/LETTER')
-    parser.add_argument('--depth', type=int, default=5, help='Maximum depth of the trees')
-    parser.add_argument('--estims', type=int, default=5, help='Number of trees in the ensemble')
+    parser.add_argument('--depth', nargs="+", type=int, default={5}, help='Maximum depth of the trees')
+    parser.add_argument('--estims', nargs="+", type=int, default={5}, help='Number of trees in the ensemble')
     parser.add_argument('--load-model-path', type=str, default=None, help='Specify path to model if it should be loaded, otherwise a model will be trained from scratch')
     parser.add_argument('--store-model', type=int, default=None, help='Set to 1 to store model as .pkl')
 
@@ -37,8 +37,11 @@ def parse_args(parser):
     # settings by me
     parser.add_argument('--summarize', type=int, default=0, help='Summarize over all BERs (activate with 1)')
     #parser.add_argument('--complete_trees', type=bool, default=0, help='Use Robust Complete Trees (activate with 1)')
-    parser.add_argument('--complete_trees', type=int, default=0, help='Use Robust Complete Trees (activate with 1)')
-    parser.add_argument('--exact_chidx_error', type=int, default=0, help='Dont abort on chidx error immediately (activate with 1)')
+    parser.add_argument('--complete_trees', type=int, default=0, help='Use Complete Trees (activate with 1)')
+    parser.add_argument('--complete_redundant_trees', type=int, default=0, help='Use Redundant Complete Trees (activate with 1)')
+    parser.add_argument('--rsdt', nargs="*", type=int, default={0}, help='Value for Robust Split Decision')
+    parser.add_argument('--resilience', type=int, default=0, help='Calculate Error Resilience instead of Accuracy (activate with 1)')
+    parser.add_argument('--timing', type=int, default=0, help='Measure runtime for building and evaluation (activate with 1)')
 
 
 def create_exp_folder(this_path):

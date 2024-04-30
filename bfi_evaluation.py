@@ -82,6 +82,11 @@ def bfi_tree(exp_dict):
     exp_path = exp_dict["experiment_path"]
     # exp_data = exp_dict["experiment_data"]
 
+
+    rsdt = exp_dict["rsdt"]
+    resilience = exp_dict["resilience"]
+    rsdts_path = exp_dict["rsdts_path"]
+
     exp_data = open(exp_path + "/results.txt", "a")
     exp_data.write("--- BER TEST ---\n")
     estims = exp_dict["estims"]
@@ -89,8 +94,11 @@ def bfi_tree(exp_dict):
     exp_data.write("(Summary) trees: {}, depth: {}, reps: {}, dataset: {}\n".format(estims, depth, reps, dataset_name))
     # exp_data.close()
 
+
+    output = ["", "", "", "", "", "", "", "", "", "", ""]
+
     accuracy_all = []
-    for ber in bers:
+    for idx, ber in enumerate(bers):
         exp_data = open(exp_path + "/results.txt", "a")
         # reset configs
         tree.tree_.bit_flip_injection_split = 0
@@ -145,6 +153,27 @@ def bfi_tree(exp_dict):
         acc_max = np.max(acc_scores_np)
         # print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
         # exp_data = open(exp_path + "/results.txt", "a")
+
+        if (ber == 0 and rsdt == 0 and resilience == 1):
+            base = acc_mean
+            print("base = {:.4f}".format(base))
+            with open('base.txt', 'w') as f:
+                f.write("{:.4f}".format(acc_mean))
+        else:
+            with open('base.txt', 'r') as f:
+                base = float(f.read())
+                # print(base)
+            # print(base)
+        if (resilience == 1):
+            print("BER: {:.4f}, Robustness: {:.4f}".format(ber, acc_mean / base))
+            output[idx + 1] += ",{:.4f}".format(acc_mean / base)
+        else:
+            print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
+            output[idx + 1] += ",{:.4f}".format(acc_mean)
+        # print("{:.4f},{:.4f}".format(ber, acc_mean))
+        # exp_data = open(exp_path + "/results.txt", "a")
+
+
         exp_data.write("{:.8f} {:.4f} {:.4f} {:.4f}\n".format(ber, (acc_mean), (acc_max - acc_mean), (acc_mean - acc_min)))
 
         if export_accuracy is not None:
@@ -168,8 +197,7 @@ def bfi_tree(exp_dict):
         tree.tree_.bit_flip_injection_featidx = 0
         tree.tree_.bit_flip_injection_chidx = 0
 
-        print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min,
-                                                                     acc_max - acc_mean))
+        #print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
 
     # TODO: export accuracy in a certain format
     if export_accuracy is not None:
@@ -183,6 +211,16 @@ def bfi_tree(exp_dict):
         filename = exp_path + f"/acc_over_ber_DT{depth}_{dataset_name}_reps_{reps}.npy"
         with open(filename, 'wb') as f:
         	np.save(f, stacked)
+
+    with open(rsdts_path, 'r') as f:
+        lines = [line.rstrip() for line in f]
+
+    #print(lines)
+    #print(output)
+
+    with open(rsdts_path, 'w') as f:
+        for idx, line in enumerate(output):
+            f.write(lines[idx] + f"{line}\n")
 
 def bfi_forest(exp_dict):
 
@@ -215,24 +253,31 @@ def bfi_forest(exp_dict):
     child_idx_inj = exp_dict["child_idx_inj"]
 
     exp_path = exp_dict["experiment_path"]
+    rsdts_path = exp_dict["rsdts_path"]
     # exp_data = exp_dict["experiment_data"]
 
     exp_data = open(exp_path + "/results.txt", "a")
     exp_data.write("--- BER TEST ---\n")
     estims = exp_dict["estims"]
     depth = exp_dict["depth"]
+
+    rsdt = exp_dict["rsdt"]
+    resilience = exp_dict["resilience"]
+
     exp_data.write("(Summary) trees: {}, depth: {}, reps: {}, dataset: {}\n".format(estims, depth, reps, dataset_name))
     # exp_data.close()
 
     # Added by me
     summarize = exp_dict["summarize"]
     #complete_trees = exp_dict["complete_trees"]
-    exact_chidx_error = exp_dict["exact_chidx_error"]
+    #exact_chidx_error = exp_dict["exact_chidx_error"]
 
     accuracy_all = []
     accuracy_sum = []
     output = ["", "", "", "", "", "", "", "", "", "", ""]
     # output = ["BERs, rsdt0, rsdt5, rsdt10, rsdt15, rsdt20, rsdt25, rsdt30, rsdt35, rsdt40, rsdt45, rsdt50", "0.0000", "0.0001", "0.0010", "0.0100", "0.1000", "0.2000", "0.4000", "0.6000", "0.8000", "1.0000"]
+    base = np.infty
+    #print("RSDT = ", rsdt)
     for idx, ber in enumerate(bers):
         exp_data = open(exp_path + "/results.txt", "a")
         for tree in clf.estimators_:
@@ -266,7 +311,7 @@ def bfi_forest(exp_dict):
             if child_idx_inj == 1:
                 # TODO: execute once before bet experiments
                 nr_ch_idx = get_nr_child_idx(tree)
-                print("hä")
+                #print("hä")
                 nr_ch_idx *= 2
                 tree.tree_.nr_child_idx = np.floor(np.log2(nr_ch_idx)) + 1
                 tree.tree_.bit_error_rate_chidx = ber
@@ -314,8 +359,22 @@ def bfi_forest(exp_dict):
         acc_max = np.max(acc_scores_np)
         accuracy_sum.append(acc_mean)
         if(not summarize):
-            print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
-            output[idx+1] += ",{:.4f}".format(acc_mean)
+            if(ber == 0 and rsdt == 0 and resilience == 1):
+                base = acc_mean
+                print("base = {:.4f}".format(base))
+                with open('base.txt', 'w') as f:
+                    f.write("{:.4f}".format(acc_mean))
+            else:
+                with open('base.txt', 'r') as f:
+                    base = float(f.read())
+                    #print(base)
+            #print(base)
+            if(resilience == 1):
+                print("BER: {:.4f}, Robustness: {:.4f}".format(ber, acc_mean / base))
+                output[idx + 1] += ",{:.4f}".format(acc_mean / base)
+            else:
+                print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))
+                output[idx+1] += ",{:.4f}".format(acc_mean)
             # print("{:.4f},{:.4f}".format(ber, acc_mean))
         # exp_data = open(exp_path + "/results.txt", "a")
         exp_data.write("{:.8f} {:.4f} {:.4f} {:.4f}\n".format(ber, (acc_mean), (acc_max - acc_mean), (acc_mean - acc_min)))
@@ -356,12 +415,12 @@ def bfi_forest(exp_dict):
         with open(filename, 'wb') as f:
         	np.save(f, stacked)
 
-    with open('output.txt', 'r') as f:
+    with open(rsdts_path, 'r') as f:
         lines = [line.rstrip() for line in f]
 
     #print(lines)
     #print(output)
 
-    with open('output.txt', 'w') as f:
+    with open(rsdts_path, 'w') as f:
         for idx, line in enumerate(output):
             f.write(lines[idx] + f"{line}\n")

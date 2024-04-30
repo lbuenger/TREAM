@@ -1,0 +1,12 @@
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=TIC-TAC-TOE --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1
+Building time:  0.09441947937011719
+Evaluation time:  4.929835081100464
+
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=TIC-TAC-TOE --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=25
+Building time:  0.09688520431518555
+Evaluation time:  4.904521703720093
+
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=TIC-TAC-TOE --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=50
+Building time:  0.09754514694213867
+Evaluation time:  5.049793720245361
+

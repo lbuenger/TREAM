@@ -1,0 +1,422 @@
+python3.8 run_exp.py --model DT RF --dataset IRIS ADULT LETTER TIC-TAC-TOE WINE --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 5 10 --estims 5 10 --resilience=1 --complete_redundant_trees=1
+/IRIS_D5
+Building time:  0.0011532306671142578
+base = 0.9600
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9917
+BER: 0.0100, Robustness: 0.9125
+BER: 0.1000, Robustness: 0.5354
+BER: 0.2000, Robustness: 0.4229
+BER: 0.4000, Robustness: 0.4083
+BER: 0.6000, Robustness: 0.4167
+BER: 0.8000, Robustness: 0.4167
+BER: 1.0000, Robustness: 0.4167
+Evaluation time:  0.05197596549987793
+/IRIS_D10
+Building time:  0.0022873878479003906
+base = 0.9600
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9917
+BER: 0.0100, Robustness: 0.9042
+BER: 0.1000, Robustness: 0.4833
+BER: 0.2000, Robustness: 0.4146
+BER: 0.4000, Robustness: 0.4083
+BER: 0.6000, Robustness: 0.4167
+BER: 0.8000, Robustness: 0.4167
+BER: 1.0000, Robustness: 0.4167
+Evaluation time:  0.055561065673828125
+/IRIS_D5_T5
+Building time:  0.008352041244506836
+base = 0.9600
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9979
+BER: 0.0100, Robustness: 0.9875
+BER: 0.1000, Robustness: 0.8208
+BER: 0.2000, Robustness: 0.5417
+BER: 0.4000, Robustness: 0.4188
+BER: 0.6000, Robustness: 0.4167
+BER: 0.8000, Robustness: 0.4167
+BER: 1.0000, Robustness: 0.4167
+Evaluation time:  0.2865874767303467
+/IRIS_D5_T10
+Building time:  0.015247344970703125
+base = 0.9400
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0021
+BER: 0.0100, Robustness: 1.0043
+BER: 0.1000, Robustness: 0.9064
+BER: 0.2000, Robustness: 0.5553
+BER: 0.4000, Robustness: 0.4255
+BER: 0.6000, Robustness: 0.4255
+BER: 0.8000, Robustness: 0.4255
+BER: 1.0000, Robustness: 0.4255
+Evaluation time:  0.5422501564025879
+/IRIS_D10_T5
+Building time:  0.012581825256347656
+base = 0.9600
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9938
+BER: 0.0100, Robustness: 0.9917
+BER: 0.1000, Robustness: 0.8021
+BER: 0.2000, Robustness: 0.5313
+BER: 0.4000, Robustness: 0.4188
+BER: 0.6000, Robustness: 0.4167
+BER: 0.8000, Robustness: 0.4167
+BER: 1.0000, Robustness: 0.4167
+Evaluation time:  0.3051748275756836
+/IRIS_D10_T10
+Building time:  0.02410721778869629
+base = 0.9400
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0021
+BER: 0.0100, Robustness: 1.0021
+BER: 0.1000, Robustness: 0.8340
+BER: 0.2000, Robustness: 0.4723
+BER: 0.4000, Robustness: 0.4255
+BER: 0.6000, Robustness: 0.4255
+BER: 0.8000, Robustness: 0.4255
+BER: 1.0000, Robustness: 0.4255
+Evaluation time:  0.6016921997070312
+/ADULT_D5
+Building time:  2.2361021041870117
+base = 0.7723
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9995
+BER: 0.0100, Robustness: 0.9943
+BER: 0.1000, Robustness: 0.9765
+BER: 0.2000, Robustness: 0.9739
+BER: 0.4000, Robustness: 0.9736
+BER: 0.6000, Robustness: 0.9736
+BER: 0.8000, Robustness: 0.9736
+BER: 1.0000, Robustness: 0.9736
+Evaluation time:  9.480406999588013
+/ADULT_D10
+Building time:  2.30505633354187
+base = 0.7723
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9991
+BER: 0.0100, Robustness: 0.9920
+BER: 0.1000, Robustness: 0.9743
+BER: 0.2000, Robustness: 0.9736
+BER: 0.4000, Robustness: 0.9736
+BER: 0.6000, Robustness: 0.9736
+BER: 0.8000, Robustness: 0.9736
+BER: 1.0000, Robustness: 0.9736
+Evaluation time:  8.664489984512329
+/ADULT_D5_T5
+Building time:  11.505167484283447
+base = 0.7854
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0000
+BER: 0.0100, Robustness: 0.9979
+BER: 0.1000, Robustness: 0.9723
+BER: 0.2000, Robustness: 0.9609
+BER: 0.4000, Robustness: 0.9574
+BER: 0.6000, Robustness: 0.9574
+BER: 0.8000, Robustness: 0.9574
+BER: 1.0000, Robustness: 0.9574
+Evaluation time:  74.06231594085693
+/ADULT_D5_T10
+Building time:  21.310160636901855
+base = 0.7857
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9995
+BER: 0.0100, Robustness: 0.9968
+BER: 0.1000, Robustness: 0.9695
+BER: 0.2000, Robustness: 0.9585
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  126.13453412055969
+/ADULT_D10_T5
+Building time:  9.42755389213562
+base = 0.7759
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9993
+BER: 0.0100, Robustness: 0.9909
+BER: 0.1000, Robustness: 0.9695
+BER: 0.2000, Robustness: 0.9691
+BER: 0.4000, Robustness: 0.9691
+BER: 0.6000, Robustness: 0.9691
+BER: 0.8000, Robustness: 0.9691
+BER: 1.0000, Robustness: 0.9691
+Evaluation time:  94.80282473564148
+/ADULT_D10_T10
+Building time:  20.591889142990112
+base = 0.7765
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9997
+BER: 0.0100, Robustness: 0.9950
+BER: 0.1000, Robustness: 0.9685
+BER: 0.2000, Robustness: 0.9683
+BER: 0.4000, Robustness: 0.9683
+BER: 0.6000, Robustness: 0.9683
+BER: 0.8000, Robustness: 0.9683
+BER: 1.0000, Robustness: 0.9683
+Evaluation time:  160.62004208564758
+/LETTER_D5
+Building time:  0.33971333503723145
+base = 0.4877
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9992
+BER: 0.0010, Robustness: 0.9946
+BER: 0.0100, Robustness: 0.9493
+BER: 0.1000, Robustness: 0.6007
+BER: 0.2000, Robustness: 0.3980
+BER: 0.4000, Robustness: 0.2260
+BER: 0.6000, Robustness: 0.1736
+BER: 0.8000, Robustness: 0.1614
+BER: 1.0000, Robustness: 0.1625
+Evaluation time:  8.763593196868896
+/LETTER_D10
+Building time:  0.3519480228424072
+base = 0.7603
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9990
+BER: 0.0010, Robustness: 0.9902
+BER: 0.0100, Robustness: 0.9082
+BER: 0.1000, Robustness: 0.4174
+BER: 0.2000, Robustness: 0.2147
+BER: 0.4000, Robustness: 0.0970
+BER: 0.6000, Robustness: 0.0705
+BER: 0.8000, Robustness: 0.0829
+BER: 1.0000, Robustness: 0.1291
+Evaluation time:  15.315318584442139
+/LETTER_D5_T5
+Building time:  1.6686501502990723
+base = 0.6079
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9994
+BER: 0.0010, Robustness: 0.9972
+BER: 0.0100, Robustness: 0.9616
+BER: 0.1000, Robustness: 0.6319
+BER: 0.2000, Robustness: 0.3989
+BER: 0.4000, Robustness: 0.2076
+BER: 0.6000, Robustness: 0.1551
+BER: 0.8000, Robustness: 0.1436
+BER: 1.0000, Robustness: 0.1356
+Evaluation time:  40.42350721359253
+/LETTER_D5_T10
+Building time:  2.838590383529663
+base = 0.6611
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9998
+BER: 0.0010, Robustness: 0.9979
+BER: 0.0100, Robustness: 0.9796
+BER: 0.1000, Robustness: 0.7203
+BER: 0.2000, Robustness: 0.4721
+BER: 0.4000, Robustness: 0.2400
+BER: 0.6000, Robustness: 0.1679
+BER: 0.8000, Robustness: 0.1532
+BER: 1.0000, Robustness: 0.1501
+Evaluation time:  84.17801523208618
+/LETTER_D10_T5
+Building time:  1.438188076019287
+base = 0.8423
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9996
+BER: 0.0010, Robustness: 0.9976
+BER: 0.0100, Robustness: 0.9755
+BER: 0.1000, Robustness: 0.5987
+BER: 0.2000, Robustness: 0.3241
+BER: 0.4000, Robustness: 0.1449
+BER: 0.6000, Robustness: 0.1092
+BER: 0.8000, Robustness: 0.1002
+BER: 1.0000, Robustness: 0.0804
+Evaluation time:  82.64567232131958
+/LETTER_D10_T10
+Building time:  2.864616870880127
+base = 0.8850
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9984
+BER: 0.0100, Robustness: 0.9856
+BER: 0.1000, Robustness: 0.7256
+BER: 0.2000, Robustness: 0.4149
+BER: 0.4000, Robustness: 0.1798
+BER: 0.6000, Robustness: 0.1217
+BER: 0.8000, Robustness: 0.1042
+BER: 1.0000, Robustness: 0.1144
+Evaluation time:  154.4782054424286
+/TIC-TAC-TOE_D5
+Building time:  0.009515047073364258
+base = 0.9085
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9993
+BER: 0.0010, Robustness: 0.9917
+BER: 0.0100, Robustness: 0.9136
+BER: 0.1000, Robustness: 0.6271
+BER: 0.2000, Robustness: 0.6056
+BER: 0.4000, Robustness: 0.6722
+BER: 0.6000, Robustness: 0.6892
+BER: 0.8000, Robustness: 0.6910
+BER: 1.0000, Robustness: 0.6910
+Evaluation time:  0.43299078941345215
+/TIC-TAC-TOE_D10
+Building time:  0.010495662689208984
+base = 0.8959
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9982
+BER: 0.0010, Robustness: 0.9743
+BER: 0.0100, Robustness: 0.8137
+BER: 0.1000, Robustness: 0.3585
+BER: 0.2000, Robustness: 0.4468
+BER: 0.4000, Robustness: 0.6458
+BER: 0.6000, Robustness: 0.6954
+BER: 0.8000, Robustness: 0.7007
+BER: 1.0000, Robustness: 0.7007
+Evaluation time:  0.6072897911071777
+/TIC-TAC-TOE_D5_T5
+Building time:  0.04863119125366211
+base = 0.7760
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9992
+BER: 0.0010, Robustness: 1.0004
+BER: 0.0100, Robustness: 0.9529
+BER: 0.1000, Robustness: 0.8317
+BER: 0.2000, Robustness: 0.8102
+BER: 0.4000, Robustness: 0.8090
+BER: 0.6000, Robustness: 0.8090
+BER: 0.8000, Robustness: 0.8090
+BER: 1.0000, Robustness: 0.8090
+Evaluation time:  2.156393051147461
+/TIC-TAC-TOE_D5_T10
+Building time:  0.09710884094238281
+base = 0.8644
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9941
+BER: 0.0100, Robustness: 0.9335
+BER: 0.1000, Robustness: 0.7332
+BER: 0.2000, Robustness: 0.7259
+BER: 0.4000, Robustness: 0.7262
+BER: 0.6000, Robustness: 0.7262
+BER: 0.8000, Robustness: 0.7262
+BER: 1.0000, Robustness: 0.7262
+Evaluation time:  3.864765167236328
+/TIC-TAC-TOE_D10_T5
+Building time:  0.04639291763305664
+base = 0.8864
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0004
+BER: 0.0010, Robustness: 0.9936
+BER: 0.0100, Robustness: 0.9531
+BER: 0.1000, Robustness: 0.6886
+BER: 0.2000, Robustness: 0.6822
+BER: 0.4000, Robustness: 0.7068
+BER: 0.6000, Robustness: 0.7082
+BER: 0.8000, Robustness: 0.7082
+BER: 1.0000, Robustness: 0.7082
+Evaluation time:  3.2403972148895264
+/TIC-TAC-TOE_D10_T10
+Building time:  0.09155631065368652
+base = 0.9306
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9946
+BER: 0.0100, Robustness: 0.9556
+BER: 0.1000, Robustness: 0.6953
+BER: 0.2000, Robustness: 0.6742
+BER: 0.4000, Robustness: 0.6746
+BER: 0.6000, Robustness: 0.6746
+BER: 0.8000, Robustness: 0.6746
+BER: 1.0000, Robustness: 0.6746
+Evaluation time:  6.636955738067627
+/WINE_D5
+Building time:  0.0027115345001220703
+base = 0.5763
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9970
+BER: 0.0010, Robustness: 0.9852
+BER: 0.0100, Robustness: 0.8529
+BER: 0.1000, Robustness: 0.3235
+BER: 0.2000, Robustness: 0.3470
+BER: 0.4000, Robustness: 0.4353
+BER: 0.6000, Robustness: 0.4706
+BER: 0.8000, Robustness: 0.4706
+BER: 1.0000, Robustness: 0.4706
+Evaluation time:  0.06586027145385742
+/WINE_D10
+Building time:  0.00344085693359375
+base = 0.5763
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9705
+BER: 0.0100, Robustness: 0.6794
+BER: 0.1000, Robustness: 0.2059
+BER: 0.2000, Robustness: 0.3059
+BER: 0.4000, Robustness: 0.4264
+BER: 0.6000, Robustness: 0.4706
+BER: 0.8000, Robustness: 0.4706
+BER: 1.0000, Robustness: 0.4706
+Evaluation time:  0.07856392860412598
+/WINE_D5_T5
+Building time:  0.014211177825927734
+base = 0.6271
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9892
+BER: 0.0100, Robustness: 1.0676
+BER: 0.1000, Robustness: 1.0244
+BER: 0.2000, Robustness: 0.8027
+BER: 0.4000, Robustness: 0.5919
+BER: 0.6000, Robustness: 0.6054
+BER: 0.8000, Robustness: 0.5946
+BER: 1.0000, Robustness: 0.5946
+Evaluation time:  0.3407714366912842
+/WINE_D5_T10
+Building time:  0.02779078483581543
+base = 0.7627
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0022
+BER: 0.0010, Robustness: 1.0067
+BER: 0.0100, Robustness: 1.0089
+BER: 0.1000, Robustness: 0.8800
+BER: 0.2000, Robustness: 0.7178
+BER: 0.4000, Robustness: 0.6133
+BER: 0.6000, Robustness: 0.5600
+BER: 0.8000, Robustness: 0.5511
+BER: 1.0000, Robustness: 0.5778
+Evaluation time:  0.6654183864593506
+/WINE_D10_T5
+Building time:  0.018093347549438477
+base = 0.6271
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9973
+BER: 0.0010, Robustness: 0.9973
+BER: 0.0100, Robustness: 1.0027
+BER: 0.1000, Robustness: 0.9784
+BER: 0.2000, Robustness: 0.8811
+BER: 0.4000, Robustness: 0.6406
+BER: 0.6000, Robustness: 0.6000
+BER: 0.8000, Robustness: 0.5946
+BER: 1.0000, Robustness: 0.5946
+Evaluation time:  0.39882493019104004
+/WINE_D10_T10
+Building time:  0.035762786865234375
+base = 0.7627
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0045
+BER: 0.0100, Robustness: 1.0133
+BER: 0.1000, Robustness: 0.9156
+BER: 0.2000, Robustness: 0.8156
+BER: 0.4000, Robustness: 0.6333
+BER: 0.6000, Robustness: 0.5556
+BER: 0.8000, Robustness: 0.5622
+BER: 1.0000, Robustness: 0.5778
+Evaluation time:  0.8005967140197754
+

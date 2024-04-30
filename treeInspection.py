@@ -21,7 +21,7 @@ from sklearn.datasets import load_iris, fetch_olivetti_faces, fetch_covtype
 from Utils import quantize_data
 import numpy as np
 
-model = joblib.load("D5_IRIS.pkl")
+model = joblib.load("results/raw/rsdt/fidx_half/IRIS_D10_rsdt50.pkl")
 plt.figure(figsize=(50,50))
 sklearn.tree.plot_tree(model)
 plt.savefig("plot.png")

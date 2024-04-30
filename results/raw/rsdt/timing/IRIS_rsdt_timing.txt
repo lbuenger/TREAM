@@ -1,0 +1,12 @@
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=IRIS --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1
+Building time:  0.01239323616027832
+Evaluation time:  0.2889058589935303
+
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=IRIS --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=25
+Building time:  0.014156341552734375
+Evaluation time:  0.32177305221557617
+
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model=RF --dataset=IRIS --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0  --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --depth=10 --estims=10 --timing=1 --rsdt=50
+Building time:  0.0138702392578125
+Evaluation time:  0.31569504737854004
+
