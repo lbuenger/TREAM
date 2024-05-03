@@ -142,8 +142,14 @@ def main():
 
                         # TODO: loop over models here, and use multiprocessing
                         # train or load tree / forest
+
                         if load_model is not None:
                             model = joblib.load(load_model)
+
+
+
+
+
                         else:
                             if DT_RF == "DT":
                                 clf = DecisionTreeClassifier(max_depth=depth, rsdt=rsdt,

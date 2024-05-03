@@ -1,0 +1,136 @@
+python3.8 run_exp.py --model RF --dataset MNIST --splitval-inj=0 --featval-inj=0 --featidx-inj=1 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 10 --estims 10 --resilience=1 --rsdt 0 5 10 15 20 25 30 35 40 45 50
+/MNIST_D10_T10
+Building time:  706.8607139587402
+base = 0.9359
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9999
+BER: 0.0010, Robustness: 0.9985
+BER: 0.0100, Robustness: 0.9841
+BER: 0.1000, Robustness: 0.5644
+BER: 0.2000, Robustness: 0.2833
+BER: 0.4000, Robustness: 0.1567
+BER: 0.6000, Robustness: 0.1460
+BER: 0.8000, Robustness: 0.1556
+BER: 1.0000, Robustness: 0.2108
+Evaluation time:  215.97263288497925
+Building time:  649.5516152381897
+BER: 0.0000, Robustness: 0.9605
+BER: 0.0001, Robustness: 0.9604
+BER: 0.0010, Robustness: 0.9581
+BER: 0.0100, Robustness: 0.9311
+BER: 0.1000, Robustness: 0.4052
+BER: 0.2000, Robustness: 0.1975
+BER: 0.4000, Robustness: 0.1192
+BER: 0.6000, Robustness: 0.1066
+BER: 0.8000, Robustness: 0.1018
+BER: 1.0000, Robustness: 0.0822
+Evaluation time:  224.40971446037292
+Building time:  687.5028855800629
+BER: 0.0000, Robustness: 0.9606
+BER: 0.0001, Robustness: 0.9602
+BER: 0.0010, Robustness: 0.9581
+BER: 0.0100, Robustness: 0.9302
+BER: 0.1000, Robustness: 0.4187
+BER: 0.2000, Robustness: 0.2062
+BER: 0.4000, Robustness: 0.1279
+BER: 0.6000, Robustness: 0.1216
+BER: 0.8000, Robustness: 0.1282
+BER: 1.0000, Robustness: 0.1517
+Evaluation time:  217.57714295387268
+Building time:  670.9916927814484
+BER: 0.0000, Robustness: 0.9621
+BER: 0.0001, Robustness: 0.9615
+BER: 0.0010, Robustness: 0.9597
+BER: 0.0100, Robustness: 0.9310
+BER: 0.1000, Robustness: 0.4223
+BER: 0.2000, Robustness: 0.2129
+BER: 0.4000, Robustness: 0.1353
+BER: 0.6000, Robustness: 0.1216
+BER: 0.8000, Robustness: 0.1265
+BER: 1.0000, Robustness: 0.2153
+Evaluation time:  230.78321743011475
+Building time:  662.1891601085663
+BER: 0.0000, Robustness: 0.9613
+BER: 0.0001, Robustness: 0.9611
+BER: 0.0010, Robustness: 0.9593
+BER: 0.0100, Robustness: 0.9351
+BER: 0.1000, Robustness: 0.4288
+BER: 0.2000, Robustness: 0.2029
+BER: 0.4000, Robustness: 0.1186
+BER: 0.6000, Robustness: 0.1102
+BER: 0.8000, Robustness: 0.1157
+BER: 1.0000, Robustness: 0.1951
+Evaluation time:  225.36263704299927
+Building time:  658.6875593662262
+BER: 0.0000, Robustness: 0.9712
+BER: 0.0001, Robustness: 0.9708
+BER: 0.0010, Robustness: 0.9685
+BER: 0.0100, Robustness: 0.9428
+BER: 0.1000, Robustness: 0.4396
+BER: 0.2000, Robustness: 0.2150
+BER: 0.4000, Robustness: 0.1289
+BER: 0.6000, Robustness: 0.1175
+BER: 0.8000, Robustness: 0.1254
+BER: 1.0000, Robustness: 0.2039
+Evaluation time:  216.7123076915741
+Building time:  667.1802639961243
+BER: 0.0000, Robustness: 0.9732
+BER: 0.0001, Robustness: 0.9727
+BER: 0.0010, Robustness: 0.9706
+BER: 0.0100, Robustness: 0.9456
+BER: 0.1000, Robustness: 0.4470
+BER: 0.2000, Robustness: 0.2106
+BER: 0.4000, Robustness: 0.1230
+BER: 0.6000, Robustness: 0.1157
+BER: 0.8000, Robustness: 0.1251
+BER: 1.0000, Robustness: 0.1736
+Evaluation time:  219.18160390853882
+Building time:  668.639570236206
+BER: 0.0000, Robustness: 0.9683
+BER: 0.0001, Robustness: 0.9681
+BER: 0.0010, Robustness: 0.9663
+BER: 0.0100, Robustness: 0.9433
+BER: 0.1000, Robustness: 0.4535
+BER: 0.2000, Robustness: 0.2104
+BER: 0.4000, Robustness: 0.1242
+BER: 0.6000, Robustness: 0.1160
+BER: 0.8000, Robustness: 0.1262
+BER: 1.0000, Robustness: 0.1943
+Evaluation time:  219.9942741394043
+Building time:  646.2280006408691
+BER: 0.0000, Robustness: 0.9646
+BER: 0.0001, Robustness: 0.9645
+BER: 0.0010, Robustness: 0.9630
+BER: 0.0100, Robustness: 0.9384
+BER: 0.1000, Robustness: 0.4396
+BER: 0.2000, Robustness: 0.2142
+BER: 0.4000, Robustness: 0.1263
+BER: 0.6000, Robustness: 0.1149
+BER: 0.8000, Robustness: 0.1217
+BER: 1.0000, Robustness: 0.2017
+Evaluation time:  213.30899024009705
+Building time:  685.7239346504211
+BER: 0.0000, Robustness: 0.9653
+BER: 0.0001, Robustness: 0.9652
+BER: 0.0010, Robustness: 0.9635
+BER: 0.0100, Robustness: 0.9400
+BER: 0.1000, Robustness: 0.4395
+BER: 0.2000, Robustness: 0.2140
+BER: 0.4000, Robustness: 0.1326
+BER: 0.6000, Robustness: 0.1244
+BER: 0.8000, Robustness: 0.1315
+BER: 1.0000, Robustness: 0.1964
+Evaluation time:  218.65572023391724
+Building time:  680.6186563968658
+BER: 0.0000, Robustness: 0.9698
+BER: 0.0001, Robustness: 0.9697
+BER: 0.0010, Robustness: 0.9679
+BER: 0.0100, Robustness: 0.9432
+BER: 0.1000, Robustness: 0.4301
+BER: 0.2000, Robustness: 0.2062
+BER: 0.4000, Robustness: 0.1259
+BER: 0.6000, Robustness: 0.1167
+BER: 0.8000, Robustness: 0.1211
+BER: 1.0000, Robustness: 0.1922
+Evaluation time:  214.88575100898743
+

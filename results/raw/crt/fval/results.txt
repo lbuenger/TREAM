@@ -1,0 +1,577 @@
+--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: IRIS
+0.00000000 0.9600 -0.0000 0.0000
+0.00010000 0.9600 -0.0000 0.0000
+0.00100000 0.9340 0.0260 0.0140
+0.01000000 0.8300 0.0900 0.0700
+0.10000000 0.3080 0.0920 0.0880
+0.20000000 0.2100 0.0700 0.1100
+0.40000000 0.1880 0.0720 0.0680
+0.60000000 0.2800 0.1000 0.0600
+0.80000000 0.3260 0.0340 0.0460
+1.00000000 0.4000 0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "IRIS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_IRIS_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: IRIS
+0.00000000 0.9600 -0.0000 0.0000
+0.00010000 0.9580 0.0020 0.0180
+0.00100000 0.9420 0.0180 0.0420
+0.01000000 0.7720 0.0480 0.0520
+0.10000000 0.2240 0.0760 0.1040
+0.20000000 0.1420 0.0580 0.0820
+0.40000000 0.1620 0.0380 0.0220
+0.60000000 0.2700 0.0900 0.0900
+0.80000000 0.3420 0.0380 0.0620
+1.00000000 0.4000 0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "IRIS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_IRIS_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: IRIS
+0.00000000 0.9600 -0.0000 0.0000
+0.00010000 0.9600 -0.0000 0.0000
+0.00100000 0.9580 0.0020 0.0180
+0.01000000 0.9540 0.0060 0.0140
+0.10000000 0.6640 0.0760 0.0840
+0.20000000 0.4860 0.1340 0.1260
+0.40000000 0.3900 0.0900 0.0700
+0.60000000 0.4000 0.0200 0.0200
+0.80000000 0.4000 0.0000 0.0000
+1.00000000 0.4000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "IRIS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_IRIS_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: IRIS
+0.00000000 0.9400 0.0000 -0.0000
+0.00010000 0.9440 0.0160 0.0040
+0.00100000 0.9420 0.0180 0.0020
+0.01000000 0.9420 0.0180 0.0220
+0.10000000 0.8320 0.0680 0.0720
+0.20000000 0.4960 0.1240 0.0560
+0.40000000 0.4120 0.0480 0.0320
+0.60000000 0.4000 0.0000 0.0000
+0.80000000 0.4000 0.0000 0.0000
+1.00000000 0.4000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "IRIS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_IRIS_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: IRIS
+0.00000000 0.9600 -0.0000 0.0000
+0.00010000 0.9600 -0.0000 0.0000
+0.00100000 0.9540 0.0060 0.0140
+0.01000000 0.9520 0.0280 0.0320
+0.10000000 0.6260 0.0740 0.0660
+0.20000000 0.4580 0.1020 0.0580
+0.40000000 0.3920 0.0280 0.0320
+0.60000000 0.3960 0.0040 0.0160
+0.80000000 0.4000 0.0000 0.0000
+1.00000000 0.4000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "IRIS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_IRIS_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: IRIS
+0.00000000 0.9400 0.0000 -0.0000
+0.00010000 0.9400 0.0000 -0.0000
+0.00100000 0.9420 0.0180 0.0020
+0.01000000 0.9440 0.0160 0.0040
+0.10000000 0.7300 0.0900 0.0500
+0.20000000 0.4640 0.0960 0.0840
+0.40000000 0.3980 0.0220 0.0180
+0.60000000 0.4000 0.0000 0.0000
+0.80000000 0.4000 0.0000 0.0000
+1.00000000 0.4000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "IRIS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_IRIS_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: WINE
+0.00000000 0.8814 0.0000 0.0000
+0.00010000 0.8814 0.0000 0.0000
+0.00100000 0.8695 0.0119 0.0220
+0.01000000 0.7542 0.0593 0.0763
+0.10000000 0.3305 0.0593 0.1271
+0.20000000 0.2153 0.0390 0.0627
+0.40000000 0.1237 0.0966 0.0559
+0.60000000 0.1068 0.0458 0.0729
+0.80000000 0.1373 0.1000 0.0695
+1.00000000 0.2712 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "WINE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_WINE_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: WINE
+0.00000000 0.8814 0.0000 0.0000
+0.00010000 0.8763 0.0051 0.0119
+0.00100000 0.8644 0.0169 0.0339
+0.01000000 0.6797 0.0831 0.1034
+0.10000000 0.1983 0.0898 0.1305
+0.20000000 0.1305 0.0559 0.0288
+0.40000000 0.1119 0.0576 0.0441
+0.60000000 0.1136 0.0220 0.0288
+0.80000000 0.1237 0.0627 0.0559
+1.00000000 0.2712 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "WINE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_WINE_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: WINE
+0.00000000 0.9661 0.0000 -0.0000
+0.00010000 0.9661 0.0000 -0.0000
+0.00100000 0.9661 0.0169 0.0169
+0.01000000 0.9407 0.0424 0.0424
+0.10000000 0.5932 0.0508 0.0678
+0.20000000 0.4729 0.1203 0.0661
+0.40000000 0.3814 0.0932 0.0763
+0.60000000 0.3254 0.0983 0.0712
+0.80000000 0.3339 0.0729 0.0627
+1.00000000 0.3729 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "WINE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_WINE_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: WINE
+0.00000000 1.0000 0.0000 0.0000
+0.00010000 1.0000 0.0000 0.0000
+0.00100000 0.9983 0.0017 0.0153
+0.01000000 0.9797 0.0203 0.0305
+0.10000000 0.7169 0.0797 0.0898
+0.20000000 0.5085 0.0847 0.1356
+0.40000000 0.3763 0.0814 0.1220
+0.60000000 0.3153 0.0746 0.0610
+0.80000000 0.3339 0.0559 0.0627
+1.00000000 0.3729 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "WINE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_WINE_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: WINE
+0.00000000 0.9661 0.0000 -0.0000
+0.00010000 0.9661 0.0000 -0.0000
+0.00100000 0.9661 0.0169 0.0169
+0.01000000 0.9441 0.0390 0.0627
+0.10000000 0.6424 0.0864 0.0661
+0.20000000 0.5322 0.0949 0.0746
+0.40000000 0.3695 0.1051 0.1153
+0.60000000 0.3322 0.1085 0.0780
+0.80000000 0.3797 0.0610 0.0746
+1.00000000 0.3729 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "WINE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_WINE_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: WINE
+0.00000000 1.0000 0.0000 0.0000
+0.00010000 1.0000 0.0000 0.0000
+0.00100000 0.9983 0.0017 0.0153
+0.01000000 0.9847 0.0153 0.0186
+0.10000000 0.7695 0.0780 0.1254
+0.20000000 0.5373 0.0898 0.0797
+0.40000000 0.3610 0.0797 0.1407
+0.60000000 0.3288 0.0780 0.0915
+0.80000000 0.3322 0.0576 0.0610
+1.00000000 0.3729 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "WINE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_WINE_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: TIC-TAC-TOE
+0.00000000 0.9085 0.0000 0.0000
+0.00010000 0.9082 0.0003 0.0028
+0.00100000 0.9057 0.0028 0.0066
+0.01000000 0.8738 0.0095 0.0158
+0.10000000 0.6303 0.0385 0.0688
+0.20000000 0.5082 0.0312 0.0287
+0.40000000 0.4584 0.0338 0.0293
+0.60000000 0.4628 0.0230 0.0558
+0.80000000 0.4826 0.0315 0.0189
+1.00000000 0.5931 0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "TIC-TAC-TOE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_TIC-TAC-TOE_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: TIC-TAC-TOE
+0.00000000 0.8959 0.0000 0.0000
+0.00010000 0.8940 0.0019 0.0044
+0.00100000 0.8845 0.0082 0.0107
+0.01000000 0.7987 0.0151 0.0132
+0.10000000 0.3142 0.0328 0.0334
+0.20000000 0.1713 0.0306 0.0388
+0.40000000 0.1413 0.0385 0.0435
+0.60000000 0.1710 0.0309 0.0227
+0.80000000 0.2300 0.0256 0.0375
+1.00000000 0.5962 0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "TIC-TAC-TOE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_TIC-TAC-TOE_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: TIC-TAC-TOE
+0.00000000 0.7760 0.0000 -0.0000
+0.00010000 0.7754 0.0006 0.0025
+0.00100000 0.7763 0.0091 0.0066
+0.01000000 0.7669 0.0218 0.0192
+0.10000000 0.6820 0.0467 0.0227
+0.20000000 0.6334 0.0290 0.0215
+0.40000000 0.6101 0.0271 0.0202
+0.60000000 0.6126 0.0215 0.0196
+0.80000000 0.6180 0.0129 0.0123
+1.00000000 0.5773 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "TIC-TAC-TOE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_TIC-TAC-TOE_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: TIC-TAC-TOE
+0.00000000 0.8644 0.0000 0.0000
+0.00010000 0.8644 0.0032 0.0032
+0.00100000 0.8615 0.0060 0.0035
+0.01000000 0.8521 0.0155 0.0224
+0.10000000 0.7091 0.0196 0.0246
+0.20000000 0.6483 0.0237 0.0268
+0.40000000 0.6246 0.0126 0.0126
+0.60000000 0.6287 0.0085 0.0104
+0.80000000 0.6262 0.0079 0.0047
+1.00000000 0.5962 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "TIC-TAC-TOE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_TIC-TAC-TOE_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: TIC-TAC-TOE
+0.00000000 0.8864 0.0000 0.0000
+0.00010000 0.8858 0.0006 0.0025
+0.00100000 0.8855 0.0041 0.0054
+0.01000000 0.8640 0.0129 0.0123
+0.10000000 0.6568 0.0183 0.0290
+0.20000000 0.5533 0.0334 0.0486
+0.40000000 0.5028 0.0524 0.0423
+0.60000000 0.5104 0.0448 0.0372
+0.80000000 0.5328 0.0350 0.0312
+1.00000000 0.5741 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "TIC-TAC-TOE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_TIC-TAC-TOE_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: TIC-TAC-TOE
+0.00000000 0.9306 -0.0000 0.0000
+0.00010000 0.9303 0.0003 0.0028
+0.00100000 0.9284 0.0054 0.0073
+0.01000000 0.9126 0.0211 0.0104
+0.10000000 0.7464 0.0423 0.0429
+0.20000000 0.6145 0.0448 0.0278
+0.40000000 0.5571 0.0297 0.0334
+0.60000000 0.5603 0.0644 0.0208
+0.80000000 0.5785 0.0366 0.0454
+1.00000000 0.5804 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "TIC-TAC-TOE", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_TIC-TAC-TOE_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: LETTER
+0.00000000 0.4877 0.0000 -0.0000
+0.00010000 0.4869 0.0009 0.0011
+0.00100000 0.4791 0.0016 0.0026
+0.01000000 0.4085 0.0087 0.0075
+0.10000000 0.1218 0.0062 0.0066
+0.20000000 0.0632 0.0041 0.0056
+0.40000000 0.0418 0.0028 0.0045
+0.60000000 0.0376 0.0031 0.0048
+0.80000000 0.0339 0.0016 0.0009
+1.00000000 0.0298 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "LETTER", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_LETTER_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: LETTER
+0.00000000 0.7603 0.0000 -0.0000
+0.00010000 0.7577 0.0011 0.0008
+0.00100000 0.7354 0.0021 0.0038
+0.01000000 0.5492 0.0097 0.0059
+0.10000000 0.0843 0.0052 0.0042
+0.20000000 0.0366 0.0032 0.0024
+0.40000000 0.0191 0.0021 0.0017
+0.60000000 0.0174 0.0020 0.0030
+0.80000000 0.0252 0.0025 0.0018
+1.00000000 0.0298 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "LETTER", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_LETTER_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: LETTER
+0.00000000 0.6079 0.0000 -0.0000
+0.00010000 0.6074 0.0007 0.0008
+0.00100000 0.6016 0.0022 0.0016
+0.01000000 0.5422 0.0078 0.0042
+0.10000000 0.1426 0.0107 0.0063
+0.20000000 0.0651 0.0047 0.0033
+0.40000000 0.0426 0.0018 0.0022
+0.60000000 0.0380 0.0020 0.0021
+0.80000000 0.0340 0.0010 0.0016
+1.00000000 0.0171 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "LETTER", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_LETTER_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: LETTER
+0.00000000 0.6611 0.0000 0.0000
+0.00010000 0.6607 0.0004 0.0008
+0.00100000 0.6568 0.0015 0.0014
+0.01000000 0.6163 0.0021 0.0026
+0.10000000 0.1912 0.0039 0.0059
+0.20000000 0.0767 0.0042 0.0042
+0.40000000 0.0435 0.0044 0.0033
+0.60000000 0.0362 0.0022 0.0021
+0.80000000 0.0324 0.0008 0.0009
+1.00000000 0.0170 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "LETTER", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_LETTER_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: LETTER
+0.00000000 0.8423 0.0000 -0.0000
+0.00010000 0.8420 0.0006 0.0010
+0.00100000 0.8372 0.0027 0.0022
+0.01000000 0.7609 0.0053 0.0048
+0.10000000 0.1402 0.0069 0.0049
+0.20000000 0.0612 0.0029 0.0052
+0.40000000 0.0419 0.0028 0.0029
+0.60000000 0.0361 0.0027 0.0027
+0.80000000 0.0356 0.0019 0.0018
+1.00000000 0.0323 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "LETTER", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_LETTER_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: LETTER
+0.00000000 0.8850 0.0000 0.0000
+0.00010000 0.8848 0.0010 0.0007
+0.00100000 0.8817 0.0023 0.0023
+0.01000000 0.8369 0.0036 0.0063
+0.10000000 0.1882 0.0061 0.0039
+0.20000000 0.0716 0.0045 0.0046
+0.40000000 0.0406 0.0016 0.0031
+0.60000000 0.0360 0.0025 0.0027
+0.80000000 0.0367 0.0027 0.0032
+1.00000000 0.0323 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "LETTER", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_LETTER_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: OCCUPANCY
+0.00000000 0.9898 0.0000 0.0000
+0.00010000 0.9893 0.0004 0.0005
+0.00100000 0.9854 0.0012 0.0013
+0.01000000 0.9474 0.0017 0.0015
+0.10000000 0.7151 0.0096 0.0060
+0.20000000 0.5905 0.0112 0.0092
+0.40000000 0.4671 0.0067 0.0092
+0.60000000 0.4564 0.0057 0.0124
+0.80000000 0.4602 0.0113 0.0113
+1.00000000 0.7649 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "OCCUPANCY", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_OCCUPANCY_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: OCCUPANCY
+0.00000000 0.9925 0.0000 -0.0000
+0.00010000 0.9904 0.0009 0.0007
+0.00100000 0.9708 0.0029 0.0019
+0.01000000 0.8103 0.0048 0.0075
+0.10000000 0.2997 0.0066 0.0092
+0.20000000 0.2000 0.0066 0.0071
+0.40000000 0.1637 0.0073 0.0044
+0.60000000 0.2178 0.0052 0.0052
+0.80000000 0.2829 0.0089 0.0076
+1.00000000 0.7649 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "OCCUPANCY", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_OCCUPANCY_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: OCCUPANCY
+0.00000000 0.9898 0.0000 0.0000
+0.00010000 0.9898 0.0000 0.0001
+0.00100000 0.9897 0.0001 0.0003
+0.01000000 0.9834 0.0011 0.0009
+0.10000000 0.8703 0.0059 0.0053
+0.20000000 0.7990 0.0074 0.0099
+0.40000000 0.7385 0.0084 0.0040
+0.60000000 0.7445 0.0032 0.0046
+0.80000000 0.7600 0.0017 0.0013
+1.00000000 0.7649 -0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "OCCUPANCY", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_OCCUPANCY_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: OCCUPANCY
+0.00000000 0.9898 0.0000 0.0000
+0.00010000 0.9898 0.0000 0.0001
+0.00100000 0.9898 0.0002 0.0001
+0.01000000 0.9895 0.0002 0.0002
+0.10000000 0.9195 0.0055 0.0036
+0.20000000 0.8367 0.0028 0.0032
+0.40000000 0.7513 0.0075 0.0051
+0.60000000 0.7503 0.0024 0.0019
+0.80000000 0.7614 0.0008 0.0011
+1.00000000 0.7649 -0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "OCCUPANCY", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_OCCUPANCY_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: OCCUPANCY
+0.00000000 0.9919 0.0000 0.0000
+0.00010000 0.9918 0.0002 0.0001
+0.00100000 0.9911 0.0004 0.0005
+0.01000000 0.9782 0.0025 0.0028
+0.10000000 0.8232 0.0060 0.0036
+0.20000000 0.7749 0.0039 0.0044
+0.40000000 0.7488 0.0020 0.0020
+0.60000000 0.7524 0.0028 0.0033
+0.80000000 0.7555 0.0028 0.0020
+1.00000000 0.7649 -0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "OCCUPANCY", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_OCCUPANCY_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: OCCUPANCY
+0.00000000 0.9922 0.0000 0.0000
+0.00010000 0.9922 0.0001 0.0000
+0.00100000 0.9922 0.0003 0.0003
+0.01000000 0.9900 0.0005 0.0006
+0.10000000 0.8597 0.0047 0.0054
+0.20000000 0.7980 0.0043 0.0029
+0.40000000 0.7578 0.0044 0.0048
+0.60000000 0.7565 0.0008 0.0016
+0.80000000 0.7582 0.0011 0.0008
+1.00000000 0.7649 -0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "OCCUPANCY", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_OCCUPANCY_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: ADULT
+0.00000000 0.7723 0.0000 -0.0000
+0.00010000 0.7723 0.0000 0.0001
+0.00100000 0.7720 0.0003 0.0002
+0.01000000 0.7703 0.0009 0.0014
+0.10000000 0.7599 0.0015 0.0014
+0.20000000 0.7511 0.0013 0.0013
+0.40000000 0.7367 0.0014 0.0013
+0.60000000 0.7346 0.0037 0.0033
+0.80000000 0.7233 0.0021 0.0019
+1.00000000 0.2147 0.0001 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "ADULT", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_ADULT_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: ADULT
+0.00000000 0.7723 0.0000 -0.0000
+0.00010000 0.7723 0.0000 0.0001
+0.00100000 0.7718 0.0004 0.0003
+0.01000000 0.7675 0.0011 0.0009
+0.10000000 0.7536 0.0010 0.0011
+0.20000000 0.7476 0.0012 0.0013
+0.40000000 0.7334 0.0012 0.0020
+0.60000000 0.7310 0.0021 0.0025
+0.80000000 0.7190 0.0026 0.0020
+1.00000000 0.2147 0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "ADULT", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_ADULT_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: ADULT
+0.00000000 0.7854 0.0000 0.0000
+0.00010000 0.7854 0.0002 0.0002
+0.00100000 0.7852 0.0005 0.0004
+0.01000000 0.7840 0.0016 0.0015
+0.10000000 0.7721 0.0026 0.0024
+0.20000000 0.7528 0.0055 0.0027
+0.40000000 0.7153 0.0026 0.0029
+0.60000000 0.6972 0.0057 0.0044
+0.80000000 0.6603 0.0025 0.0031
+1.00000000 0.2147 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "ADULT", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_ADULT_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: ADULT
+0.00000000 0.7857 0.0000 0.0000
+0.00010000 0.7856 0.0002 0.0003
+0.00100000 0.7853 0.0005 0.0007
+0.01000000 0.7831 0.0024 0.0013
+0.10000000 0.7752 0.0014 0.0017
+0.20000000 0.7633 0.0009 0.0011
+0.40000000 0.7413 0.0019 0.0034
+0.60000000 0.7291 0.0033 0.0029
+0.80000000 0.6965 0.0051 0.0083
+1.00000000 0.2481 -0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "ADULT", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_ADULT_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: ADULT
+0.00000000 0.7759 0.0000 0.0000
+0.00010000 0.7759 0.0000 0.0001
+0.00100000 0.7750 0.0003 0.0002
+0.01000000 0.7687 0.0017 0.0011
+0.10000000 0.7536 0.0008 0.0015
+0.20000000 0.7522 0.0004 0.0004
+0.40000000 0.7507 0.0010 0.0009
+0.60000000 0.7483 0.0009 0.0013
+0.80000000 0.7424 0.0017 0.0014
+1.00000000 0.2147 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "ADULT", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_ADULT_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: ADULT
+0.00000000 0.7765 0.0000 0.0000
+0.00010000 0.7765 0.0001 0.0001
+0.00100000 0.7764 0.0003 0.0003
+0.01000000 0.7732 0.0004 0.0005
+0.10000000 0.7531 0.0006 0.0005
+0.20000000 0.7520 0.0003 0.0001
+0.40000000 0.7518 0.0001 0.0001
+0.60000000 0.7516 0.0002 0.0004
+0.80000000 0.7491 0.0008 0.0008
+1.00000000 0.2481 -0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "ADULT", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_ADULT_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: SENSORLESS
+0.00000000 0.8591 0.0000 -0.0000
+0.00010000 0.8578 0.0007 0.0006
+0.00100000 0.8466 0.0014 0.0012
+0.01000000 0.7437 0.0071 0.0038
+0.10000000 0.2813 0.0059 0.0071
+0.20000000 0.1582 0.0048 0.0029
+0.40000000 0.1022 0.0027 0.0031
+0.60000000 0.0754 0.0028 0.0016
+0.80000000 0.0393 0.0036 0.0015
+1.00000000 0.0000 0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "SENSORLESS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_SENSORLESS_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: SENSORLESS
+0.00000000 0.9841 -0.0000 0.0000
+0.00010000 0.9813 0.0005 0.0005
+0.00100000 0.9580 0.0016 0.0013
+0.01000000 0.7552 0.0032 0.0031
+0.10000000 0.1645 0.0040 0.0034
+0.20000000 0.0818 0.0025 0.0027
+0.40000000 0.0508 0.0036 0.0031
+0.60000000 0.0322 0.0019 0.0021
+0.80000000 0.0122 0.0017 0.0010
+1.00000000 0.0000 0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "SENSORLESS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_SENSORLESS_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: SENSORLESS
+0.00000000 0.8659 -0.0000 0.0000
+0.00010000 0.8654 0.0003 0.0003
+0.00100000 0.8616 0.0006 0.0006
+0.01000000 0.8146 0.0028 0.0031
+0.10000000 0.3490 0.0056 0.0056
+0.20000000 0.1808 0.0035 0.0040
+0.40000000 0.1073 0.0029 0.0028
+0.60000000 0.0723 0.0019 0.0023
+0.80000000 0.0262 0.0019 0.0020
+1.00000000 0.0000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "SENSORLESS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_SENSORLESS_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: SENSORLESS
+0.00000000 0.8697 0.0000 0.0000
+0.00010000 0.8696 0.0004 0.0004
+0.00100000 0.8677 0.0012 0.0011
+0.01000000 0.8489 0.0026 0.0025
+0.10000000 0.4418 0.0053 0.0077
+0.20000000 0.2121 0.0064 0.0038
+0.40000000 0.1132 0.0035 0.0020
+0.60000000 0.0647 0.0024 0.0031
+0.80000000 0.0117 0.0017 0.0011
+1.00000000 0.0000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "SENSORLESS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_SENSORLESS_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: SENSORLESS
+0.00000000 0.9935 0.0000 0.0000
+0.00010000 0.9934 0.0002 0.0002
+0.00100000 0.9920 0.0010 0.0004
+0.01000000 0.9559 0.0025 0.0016
+0.10000000 0.3073 0.0057 0.0028
+0.20000000 0.1593 0.0035 0.0030
+0.40000000 0.1050 0.0020 0.0034
+0.60000000 0.0769 0.0029 0.0019
+0.80000000 0.0399 0.0031 0.0027
+1.00000000 0.0000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "SENSORLESS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_SENSORLESS_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: SENSORLESS
+0.00000000 0.9953 0.0000 -0.0000
+0.00010000 0.9953 0.0001 0.0001
+0.00100000 0.9949 0.0005 0.0005
+0.01000000 0.9860 0.0011 0.0005
+0.10000000 0.3819 0.0038 0.0049
+0.20000000 0.1777 0.0036 0.0026
+0.40000000 0.1060 0.0037 0.0030
+0.60000000 0.0728 0.0032 0.0038
+0.80000000 0.0274 0.0015 0.0018
+1.00000000 0.0000 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "SENSORLESS", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_SENSORLESS_D10_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 5, reps: 10, dataset: MNIST
+0.00000000 0.6995 -0.0000 0.0000
+0.00010000 0.6991 0.0004 0.0004
+0.00100000 0.6958 0.0008 0.0005
+0.01000000 0.6674 0.0034 0.0034
+0.10000000 0.4306 0.0058 0.0053
+0.20000000 0.2679 0.0072 0.0086
+0.40000000 0.1292 0.0031 0.0038
+0.60000000 0.0808 0.0032 0.0028
+0.80000000 0.0559 0.0024 0.0028
+1.00000000 0.0206 0.0000 0.0000
+{"DT_RF": "DT", "depth": 5, "estims": 1, "dataset_name": "MNIST", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_MNIST_D5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 1, depth: 10, reps: 10, dataset: MNIST
+0.00000000 0.8671 0.0000 0.0000
+0.00010000 0.8668 0.0003 0.0001
+0.00100000 0.8630 0.0007 0.0007
+0.01000000 0.8229 0.0027 0.0048
+0.10000000 0.4944 0.0078 0.0052
+0.20000000 0.2804 0.0100 0.0084
+0.40000000 0.1206 0.0090 0.0059
+0.60000000 0.0757 0.0035 0.0034
+0.80000000 0.0490 0.0031 0.0029
+1.00000000 0.0320 -0.0000 0.0000
+{"DT_RF": "DT", "depth": 10, "estims": 1, "dataset_name": "MNIST", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_MNIST_D10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 5, reps: 10, dataset: MNIST
+0.00000000 0.7761 0.0000 -0.0000
+0.00010000 0.7760 0.0002 0.0002
+0.00100000 0.7749 0.0014 0.0017
+0.01000000 0.7637 0.0025 0.0023
+0.10000000 0.6131 0.0096 0.0056
+0.20000000 0.4102 0.0108 0.0106
+0.40000000 0.1566 0.0039 0.0033
+0.60000000 0.0747 0.0037 0.0018
+0.80000000 0.0403 0.0029 0.0025
+1.00000000 0.0112 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 5, "dataset_name": "MNIST", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_MNIST_D5_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 5, reps: 10, dataset: MNIST
+0.00000000 0.8264 0.0000 -0.0000
+0.00010000 0.8263 0.0002 0.0006
+0.00100000 0.8258 0.0005 0.0009
+0.01000000 0.8198 0.0028 0.0032
+0.10000000 0.7122 0.0055 0.0063
+0.20000000 0.5117 0.0076 0.0080
+0.40000000 0.1752 0.0048 0.0055
+0.60000000 0.0724 0.0032 0.0018
+0.80000000 0.0348 0.0024 0.0035
+1.00000000 0.0054 0.0000 0.0000
+{"DT_RF": "RF", "depth": 5, "estims": 10, "dataset_name": "MNIST", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_MNIST_D5_T10_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 5, depth: 10, reps: 10, dataset: MNIST
+0.00000000 0.9165 0.0000 -0.0000
+0.00010000 0.9164 0.0003 0.0004
+0.00100000 0.9159 0.0009 0.0006
+0.01000000 0.9085 0.0026 0.0018
+0.10000000 0.7240 0.0047 0.0031
+0.20000000 0.4382 0.0065 0.0114
+0.40000000 0.1475 0.0080 0.0081
+0.60000000 0.0713 0.0027 0.0025
+0.80000000 0.0384 0.0031 0.0027
+1.00000000 0.0190 0.0000 -0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 5, "dataset_name": "MNIST", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_MNIST_D10_T5_rsdts.txt"}--- BER TEST ---
+(Summary) trees: 10, depth: 10, reps: 10, dataset: MNIST
+0.00000000 0.9361 0.0000 0.0000
+0.00010000 0.9360 0.0003 0.0001
+0.00100000 0.9357 0.0013 0.0005
+0.01000000 0.9325 0.0014 0.0017
+0.10000000 0.8259 0.0035 0.0037
+0.20000000 0.5517 0.0131 0.0054
+0.40000000 0.1677 0.0096 0.0088
+0.60000000 0.0645 0.0027 0.0034
+0.80000000 0.0282 0.0019 0.0021
+1.00000000 0.0127 0.0000 0.0000
+{"DT_RF": "RF", "depth": 10, "estims": 10, "dataset_name": "MNIST", "experiment_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57", "split_inj": 0, "int_split": 1, "feature_inj": 1, "nr_bits_split": 8, "nr_bits_feature": 8, "feature_idx_inj": 0, "child_idx_inj": 0, "reps": 10, "bers": [0, 0.0001, 0.001, 0.01, 0.1, 0.2, 0.4, 0.6, 0.8, 1], "export_accuracy": null, "true_majority": 0, "random_state": 2, "complete_trees": 1, "complete_redundant_trees": 1, "summarize": 0, "rsdt": 0, "resilience": 1, "rsdts_path": "/home/lukas/Test/TREAM/experiments/results-03-05-2024-03:38:57/CR_MNIST_D10_T10_rsdts.txt"}

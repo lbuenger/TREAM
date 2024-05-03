@@ -1,0 +1,91 @@
+python3.8 run_exp.py --model RF --dataset WINE --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=1 --timing=1 --depth 10 --estims 100 --resilience=1 --complete_redundant_trees=0
+/WINE_D10_T100
+Building time:  0.2950878143310547
+base = 0.8475
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0000
+BER: 0.0100, Robustness: 1.0199
+BER: 0.1000, Robustness: 0.6200
+BER: 0.2000, Robustness: 0.5400
+BER: 0.4000, Robustness: 0.4600
+BER: 0.6000, Robustness: 0.4400
+BER: 0.8000, Robustness: 0.4400
+BER: 1.0000, Robustness: 0.4400
+Evaluation time:  0.4381732940673828
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model RF --dataset WINE --splitval-inj=1 --featval-inj=0 --featidx-inj=0 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=1 --timing=1 --depth 10 --estims 100 --resilience=1 --complete_redundant_trees=1
+/WINE_D10_T100
+Building time:  0.3727407455444336
+base = 0.8475
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0000
+BER: 0.0100, Robustness: 1.0000
+BER: 0.1000, Robustness: 0.9600
+BER: 0.2000, Robustness: 0.5600
+BER: 0.4000, Robustness: 0.5000
+BER: 0.6000, Robustness: 0.4400
+BER: 0.8000, Robustness: 0.4400
+BER: 1.0000, Robustness: 0.4400
+Evaluation time:  0.8369851112365723
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model RF --dataset WINE --splitval-inj=0 --featval-inj=1 --featidx-inj=0 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 10 --estims 50 --resilience=1 --complete_redundant_trees=0
+/WINE_D10_T50
+Building time:  0.14406728744506836
+base = 0.9831
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0017
+BER: 0.0100, Robustness: 1.0051
+BER: 0.1000, Robustness: 0.8551
+BER: 0.2000, Robustness: 0.5845
+BER: 0.4000, Robustness: 0.4000
+BER: 0.6000, Robustness: 0.3776
+BER: 0.8000, Robustness: 0.3776
+BER: 1.0000, Robustness: 0.3793
+Evaluation time:  1.796649694442749
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model RF --dataset WINE --splitval-inj=0 --featval-inj=1 --featidx-inj=0 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 10 --estims 50 --resilience=1 --complete_redundant_trees=1
+/WINE_D10_T50
+Building time:  0.18481755256652832
+base = 0.9831
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 1.0051
+BER: 0.0100, Robustness: 1.0086
+BER: 0.1000, Robustness: 0.9379
+BER: 0.2000, Robustness: 0.6758
+BER: 0.4000, Robustness: 0.3793
+BER: 0.6000, Robustness: 0.3672
+BER: 0.8000, Robustness: 0.3793
+BER: 1.0000, Robustness: 0.3793
+Evaluation time:  3.3806324005126953
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model RF --dataset WINE --splitval-inj=0 --featval-inj=0 --featidx-inj=1 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 10 --estims 50 --resilience=1 --complete_redundant_trees=0
+/WINE_D10_T50
+Building time:  0.1419210433959961
+base = 0.9831
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0000
+BER: 0.0010, Robustness: 0.9982
+BER: 0.0100, Robustness: 0.9931
+BER: 0.1000, Robustness: 0.8069
+BER: 0.2000, Robustness: 0.4431
+BER: 0.4000, Robustness: 0.3793
+BER: 0.6000, Robustness: 0.3793
+BER: 0.8000, Robustness: 0.3793
+BER: 1.0000, Robustness: 0.3793
+Evaluation time:  1.9419951438903809
+(tream-env) lukas@lukas-XMG-PRO-E22:~/Test/TREAM$ python3.8 run_exp.py --model RF --dataset WINE --splitval-inj=0 --featval-inj=0 --featidx-inj=1 --chidx-inj=0 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 10 --estims 50 --resilience=1 --complete_redundant_trees=1
+/WINE_D10_T50
+Building time:  0.2251584529876709
+base = 0.9831
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 1.0017
+BER: 0.0010, Robustness: 1.0068
+BER: 0.0100, Robustness: 1.0051
+BER: 0.1000, Robustness: 0.8879
+BER: 0.2000, Robustness: 0.5586
+BER: 0.4000, Robustness: 0.3810
+BER: 0.6000, Robustness: 0.3793
+BER: 0.8000, Robustness: 0.3793
+BER: 1.0000, Robustness: 0.3793
+Evaluation time:  3.9336280822753906
+

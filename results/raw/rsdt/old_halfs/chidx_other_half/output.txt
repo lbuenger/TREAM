@@ -1,0 +1,2954 @@
+python3.8 run_exp.py --model DT RF --dataset OCCUPANCY ADULT SENSORLESS MNIST --splitval-inj=0 --featval-inj=0 --featidx-inj=0 --chidx-inj=1 --nr-bits-split=8 --nr-bits-feature=8 --int-split=1 --store-model=1 --seed=2 --trials=10 --timing=1 --depth 5 10 --estims 5 10 --resilience=1 --rsdt 0 5 10 15 20 25 30 35 40 45 50
+/OCCUPANCY_D5
+base = 0.9894
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  1.8614115715026855
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  2.2730047702789307
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  2.3195345401763916
+BER: 0.0000, Robustness: 0.9589
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  2.3065545558929443
+BER: 0.0000, Robustness: 0.9249
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  2.0477845668792725
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  1.9764404296875
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  1.991002082824707
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  1.9654722213745117
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  2.006162166595459
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  5.484500169754028
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  3.9931955337524414
+/OCCUPANCY_D10
+base = 0.9925
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  2.3980486392974854
+BER: 0.0000, Robustness: 0.9563
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.279787302017212
+BER: 0.0000, Robustness: 0.9669
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.247676849365234
+BER: 0.0000, Robustness: 0.9584
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.148163795471191
+BER: 0.0000, Robustness: 0.9248
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.381946563720703
+BER: 0.0000, Robustness: 0.8668
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.391286134719849
+BER: 0.0000, Robustness: 0.7710
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.195827007293701
+BER: 0.0000, Robustness: 0.7707
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.200542211532593
+BER: 0.0000, Robustness: 0.7707
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.338189363479614
+BER: 0.0000, Robustness: 0.7707
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.357192754745483
+BER: 0.0000, Robustness: 0.7707
+BER: 0.0001, Robustness: 0.7707
+BER: 0.0010, Robustness: 0.7707
+BER: 0.0100, Robustness: 0.7707
+BER: 0.1000, Robustness: 0.7707
+BER: 0.2000, Robustness: 0.7707
+BER: 0.4000, Robustness: 0.7707
+BER: 0.6000, Robustness: 0.7707
+BER: 0.8000, Robustness: 0.7707
+BER: 1.0000, Robustness: 0.7707
+Evaluation time:  4.356776237487793
+/OCCUPANCY_D5_T5
+base = 0.9892
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  8.453058958053589
+BER: 0.0000, Robustness: 0.9622
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  10.79683780670166
+BER: 0.0000, Robustness: 0.9729
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  10.253515005111694
+BER: 0.0000, Robustness: 0.9607
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  10.145456552505493
+BER: 0.0000, Robustness: 0.9291
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  8.57683277130127
+BER: 0.0000, Robustness: 0.8749
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  8.608045816421509
+BER: 0.0000, Robustness: 0.9142
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  8.319774866104126
+BER: 0.0000, Robustness: 0.9260
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  7.855769157409668
+BER: 0.0000, Robustness: 0.8923
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  7.544921398162842
+BER: 0.0000, Robustness: 0.8952
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  7.725852727890015
+BER: 0.0000, Robustness: 0.7733
+BER: 0.0001, Robustness: 0.7733
+BER: 0.0010, Robustness: 0.7733
+BER: 0.0100, Robustness: 0.7733
+BER: 0.1000, Robustness: 0.7733
+BER: 0.2000, Robustness: 0.7733
+BER: 0.4000, Robustness: 0.7733
+BER: 0.6000, Robustness: 0.7733
+BER: 0.8000, Robustness: 0.7733
+BER: 1.0000, Robustness: 0.7733
+Evaluation time:  7.722103595733643
+/OCCUPANCY_D5_T10
+base = 0.9894
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  11.672393083572388
+BER: 0.0000, Robustness: 0.9595
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.155164241790771
+BER: 0.0000, Robustness: 0.9703
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.195894718170166
+BER: 0.0000, Robustness: 0.9604
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  13.258482456207275
+BER: 0.0000, Robustness: 0.9273
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.11571979522705
+BER: 0.0000, Robustness: 0.8784
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.41398549079895
+BER: 0.0000, Robustness: 0.8839
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.222618103027344
+BER: 0.0000, Robustness: 0.9525
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.719350337982178
+BER: 0.0000, Robustness: 0.9316
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.42559266090393
+BER: 0.0000, Robustness: 0.8780
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.789461374282837
+BER: 0.0000, Robustness: 0.7731
+BER: 0.0001, Robustness: 0.7731
+BER: 0.0010, Robustness: 0.7731
+BER: 0.0100, Robustness: 0.7731
+BER: 0.1000, Robustness: 0.7731
+BER: 0.2000, Robustness: 0.7731
+BER: 0.4000, Robustness: 0.7731
+BER: 0.6000, Robustness: 0.7731
+BER: 0.8000, Robustness: 0.7731
+BER: 1.0000, Robustness: 0.7731
+Evaluation time:  14.436556816101074
+/OCCUPANCY_D10_T5
+base = 0.9917
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  7.364552736282349
+BER: 0.0000, Robustness: 0.9672
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  12.152037382125854
+BER: 0.0000, Robustness: 0.9708
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  11.920948505401611
+BER: 0.0000, Robustness: 0.9621
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  11.270719528198242
+BER: 0.0000, Robustness: 0.9314
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  12.322785139083862
+BER: 0.0000, Robustness: 0.8893
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  12.085601091384888
+BER: 0.0000, Robustness: 0.9131
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  12.020236253738403
+BER: 0.0000, Robustness: 0.9354
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  12.07885193824768
+BER: 0.0000, Robustness: 0.8813
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  11.46941328048706
+BER: 0.0000, Robustness: 0.9009
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  11.879231452941895
+BER: 0.0000, Robustness: 0.8470
+BER: 0.0001, Robustness: 0.7713
+BER: 0.0010, Robustness: 0.7713
+BER: 0.0100, Robustness: 0.7713
+BER: 0.1000, Robustness: 0.7713
+BER: 0.2000, Robustness: 0.7713
+BER: 0.4000, Robustness: 0.7713
+BER: 0.6000, Robustness: 0.7713
+BER: 0.8000, Robustness: 0.7713
+BER: 1.0000, Robustness: 0.7713
+Evaluation time:  12.170480728149414
+/OCCUPANCY_D10_T10
+base = 0.9931
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  12.12149429321289
+BER: 0.0000, Robustness: 0.9621
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  21.565528392791748
+BER: 0.0000, Robustness: 0.9716
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  22.208571672439575
+BER: 0.0000, Robustness: 0.9608
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  19.963215589523315
+BER: 0.0000, Robustness: 0.9265
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  22.15764355659485
+BER: 0.0000, Robustness: 0.8878
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  25.32767629623413
+BER: 0.0000, Robustness: 0.9078
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  26.803550481796265
+BER: 0.0000, Robustness: 0.9040
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  27.00796151161194
+BER: 0.0000, Robustness: 0.9074
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  25.713247537612915
+BER: 0.0000, Robustness: 0.8930
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  24.881712913513184
+BER: 0.0000, Robustness: 0.9414
+BER: 0.0001, Robustness: 0.7702
+BER: 0.0010, Robustness: 0.7702
+BER: 0.0100, Robustness: 0.7702
+BER: 0.1000, Robustness: 0.7702
+BER: 0.2000, Robustness: 0.7702
+BER: 0.4000, Robustness: 0.7702
+BER: 0.6000, Robustness: 0.7702
+BER: 0.8000, Robustness: 0.7702
+BER: 1.0000, Robustness: 0.7702
+Evaluation time:  22.336668968200684
+/ADULT_D5
+base = 0.7857
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0855557918548584
+BER: 0.0000, Robustness: 0.9999
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.065248489379883
+BER: 0.0000, Robustness: 0.9993
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0939574241638184
+BER: 0.0000, Robustness: 0.9995
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0663819313049316
+BER: 0.0000, Robustness: 0.9995
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0740108489990234
+BER: 0.0000, Robustness: 0.9705
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.076037883758545
+BER: 0.0000, Robustness: 0.9924
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0886521339416504
+BER: 0.0000, Robustness: 0.9930
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.092303991317749
+BER: 0.0000, Robustness: 0.9995
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0819246768951416
+BER: 0.0000, Robustness: 0.9995
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.081821918487549
+BER: 0.0000, Robustness: 0.9995
+BER: 0.0001, Robustness: 0.9570
+BER: 0.0010, Robustness: 0.9570
+BER: 0.0100, Robustness: 0.9570
+BER: 0.1000, Robustness: 0.9570
+BER: 0.2000, Robustness: 0.9570
+BER: 0.4000, Robustness: 0.9570
+BER: 0.6000, Robustness: 0.9570
+BER: 0.8000, Robustness: 0.9570
+BER: 1.0000, Robustness: 0.9570
+Evaluation time:  2.0692622661590576
+/ADULT_D10
+base = 0.7844
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.3146302700042725
+BER: 0.0000, Robustness: 1.0015
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.8423056602478027
+BER: 0.0000, Robustness: 1.0015
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.948230743408203
+BER: 0.0000, Robustness: 1.0012
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.7369918823242188
+BER: 0.0000, Robustness: 1.0014
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.701094150543213
+BER: 0.0000, Robustness: 0.9766
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.803220510482788
+BER: 0.0000, Robustness: 0.9946
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.878730297088623
+BER: 0.0000, Robustness: 0.9944
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.8989737033843994
+BER: 0.0000, Robustness: 1.0015
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.9342598915100098
+BER: 0.0000, Robustness: 1.0015
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.9002888202667236
+BER: 0.0000, Robustness: 1.0015
+BER: 0.0001, Robustness: 0.9586
+BER: 0.0010, Robustness: 0.9586
+BER: 0.0100, Robustness: 0.9586
+BER: 0.1000, Robustness: 0.9586
+BER: 0.2000, Robustness: 0.9586
+BER: 0.4000, Robustness: 0.9586
+BER: 0.6000, Robustness: 0.9586
+BER: 0.8000, Robustness: 0.9586
+BER: 1.0000, Robustness: 0.9586
+Evaluation time:  3.9199700355529785
+/ADULT_D5_T5
+base = 0.7852
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.197608947753906
+BER: 0.0000, Robustness: 1.0006
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.222495555877686
+BER: 0.0000, Robustness: 1.0005
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.210220575332642
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.152988910675049
+BER: 0.0000, Robustness: 0.9968
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.204508304595947
+BER: 0.0000, Robustness: 0.9939
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.194648504257202
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.196970462799072
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.18735384941101
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.174028158187866
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.182288408279419
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  10.203779220581055
+/ADULT_D5_T10
+base = 0.7847
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.275341510772705
+BER: 0.0000, Robustness: 1.0011
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.24941372871399
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.33078908920288
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.25063443183899
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.2186176776886
+BER: 0.0000, Robustness: 0.9939
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.227304458618164
+BER: 0.0000, Robustness: 1.0002
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.235761404037476
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.330695152282715
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.370685577392578
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.24712371826172
+BER: 0.0000, Robustness: 1.0008
+BER: 0.0001, Robustness: 0.9582
+BER: 0.0010, Robustness: 0.9582
+BER: 0.0100, Robustness: 0.9582
+BER: 0.1000, Robustness: 0.9582
+BER: 0.2000, Robustness: 0.9582
+BER: 0.4000, Robustness: 0.9582
+BER: 0.6000, Robustness: 0.9582
+BER: 0.8000, Robustness: 0.9582
+BER: 1.0000, Robustness: 0.9582
+Evaluation time:  20.3096981048584
+/ADULT_D10_T5
+base = 0.7852
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  17.606392860412598
+BER: 0.0000, Robustness: 1.0005
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.000131130218506
+BER: 0.0000, Robustness: 1.0003
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.289750814437866
+BER: 0.0000, Robustness: 1.0005
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  18.651654481887817
+BER: 0.0000, Robustness: 1.0005
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  18.394729375839233
+BER: 0.0000, Robustness: 1.0006
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.09426498413086
+BER: 0.0000, Robustness: 1.0004
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.297961711883545
+BER: 0.0000, Robustness: 1.0005
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.426939725875854
+BER: 0.0000, Robustness: 1.0006
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.35345721244812
+BER: 0.0000, Robustness: 1.0006
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.34413743019104
+BER: 0.0000, Robustness: 1.0006
+BER: 0.0001, Robustness: 0.9576
+BER: 0.0010, Robustness: 0.9576
+BER: 0.0100, Robustness: 0.9576
+BER: 0.1000, Robustness: 0.9576
+BER: 0.2000, Robustness: 0.9576
+BER: 0.4000, Robustness: 0.9576
+BER: 0.6000, Robustness: 0.9576
+BER: 0.8000, Robustness: 0.9576
+BER: 1.0000, Robustness: 0.9576
+Evaluation time:  19.363898277282715
+/ADULT_D10_T10
+base = 0.7855
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  35.16435647010803
+BER: 0.0000, Robustness: 1.0002
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  37.86973977088928
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.58469748497009
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  37.32352304458618
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  36.867448568344116
+BER: 0.0000, Robustness: 1.0002
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.03242325782776
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.56459164619446
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.774969816207886
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.68964695930481
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.670249462127686
+BER: 0.0000, Robustness: 1.0001
+BER: 0.0001, Robustness: 0.9572
+BER: 0.0010, Robustness: 0.9572
+BER: 0.0100, Robustness: 0.9572
+BER: 0.1000, Robustness: 0.9572
+BER: 0.2000, Robustness: 0.9572
+BER: 0.4000, Robustness: 0.9572
+BER: 0.6000, Robustness: 0.9572
+BER: 0.8000, Robustness: 0.9572
+BER: 1.0000, Robustness: 0.9572
+Evaluation time:  38.65592050552368
+/SENSORLESS_D5
+base = 0.8622
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.5628433227539062
+BER: 0.0000, Robustness: 0.1171
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.680781841278076
+BER: 0.0000, Robustness: 0.1112
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.6899752616882324
+BER: 0.0000, Robustness: 0.1079
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.689826250076294
+BER: 0.0000, Robustness: 0.1086
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.6826419830322266
+BER: 0.0000, Robustness: 0.1083
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.682185173034668
+BER: 0.0000, Robustness: 0.1076
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.675354242324829
+BER: 0.0000, Robustness: 0.1076
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.6792240142822266
+BER: 0.0000, Robustness: 0.1074
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.675201177597046
+BER: 0.0000, Robustness: 0.1074
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.686750650405884
+BER: 0.0000, Robustness: 0.1071
+BER: 0.0001, Robustness: 0.1064
+BER: 0.0010, Robustness: 0.1064
+BER: 0.0100, Robustness: 0.1064
+BER: 0.1000, Robustness: 0.1064
+BER: 0.2000, Robustness: 0.1064
+BER: 0.4000, Robustness: 0.1064
+BER: 0.6000, Robustness: 0.1064
+BER: 0.8000, Robustness: 0.1064
+BER: 1.0000, Robustness: 0.1064
+Evaluation time:  3.7047481536865234
+/SENSORLESS_D10
+base = 0.9832
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  5.7267677783966064
+BER: 0.0000, Robustness: 0.1104
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.145767450332642
+BER: 0.0000, Robustness: 0.1026
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.172619342803955
+BER: 0.0000, Robustness: 0.0956
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.190020799636841
+BER: 0.0000, Robustness: 0.0976
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.188092947006226
+BER: 0.0000, Robustness: 0.0963
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.222005844116211
+BER: 0.0000, Robustness: 0.0953
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.179014444351196
+BER: 0.0000, Robustness: 0.0953
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.19825553894043
+BER: 0.0000, Robustness: 0.0951
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.176318883895874
+BER: 0.0000, Robustness: 0.0951
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.186167478561401
+BER: 0.0000, Robustness: 0.0943
+BER: 0.0001, Robustness: 0.0933
+BER: 0.0010, Robustness: 0.0933
+BER: 0.0100, Robustness: 0.0933
+BER: 0.1000, Robustness: 0.0933
+BER: 0.2000, Robustness: 0.0933
+BER: 0.4000, Robustness: 0.0933
+BER: 0.6000, Robustness: 0.0933
+BER: 0.8000, Robustness: 0.0933
+BER: 1.0000, Robustness: 0.0933
+Evaluation time:  7.191148042678833
+/SENSORLESS_D5_T5
+base = 0.8488
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  17.99562406539917
+BER: 0.0000, Robustness: 0.1219
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.24142336845398
+BER: 0.0000, Robustness: 0.1141
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.266592979431152
+BER: 0.0000, Robustness: 0.1129
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.310094833374023
+BER: 0.0000, Robustness: 0.1116
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.31314706802368
+BER: 0.0000, Robustness: 0.1137
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.274547576904297
+BER: 0.0000, Robustness: 0.1160
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.297513723373413
+BER: 0.0000, Robustness: 0.2030
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.3266339302063
+BER: 0.0000, Robustness: 0.1900
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.347052335739136
+BER: 0.0000, Robustness: 0.1178
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.30851459503174
+BER: 0.0000, Robustness: 0.1541
+BER: 0.0001, Robustness: 0.1081
+BER: 0.0010, Robustness: 0.1081
+BER: 0.0100, Robustness: 0.1081
+BER: 0.1000, Robustness: 0.1081
+BER: 0.2000, Robustness: 0.1081
+BER: 0.4000, Robustness: 0.1081
+BER: 0.6000, Robustness: 0.1081
+BER: 0.8000, Robustness: 0.1081
+BER: 1.0000, Robustness: 0.1081
+Evaluation time:  18.29014015197754
+/SENSORLESS_D5_T10
+base = 0.8704
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  35.780354261398315
+BER: 0.0000, Robustness: 0.1225
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.37481760978699
+BER: 0.0000, Robustness: 0.1134
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.46091938018799
+BER: 0.0000, Robustness: 0.1108
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.6145281791687
+BER: 0.0000, Robustness: 0.1094
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.47040343284607
+BER: 0.0000, Robustness: 0.1125
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.49315023422241
+BER: 0.0000, Robustness: 0.1133
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.48796844482422
+BER: 0.0000, Robustness: 0.1991
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.505139112472534
+BER: 0.0000, Robustness: 0.1857
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.58398246765137
+BER: 0.0000, Robustness: 0.1667
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.42016291618347
+BER: 0.0000, Robustness: 0.1529
+BER: 0.0001, Robustness: 0.1054
+BER: 0.0010, Robustness: 0.1054
+BER: 0.0100, Robustness: 0.1054
+BER: 0.1000, Robustness: 0.1054
+BER: 0.2000, Robustness: 0.1054
+BER: 0.4000, Robustness: 0.1054
+BER: 0.6000, Robustness: 0.1054
+BER: 0.8000, Robustness: 0.1054
+BER: 1.0000, Robustness: 0.1054
+Evaluation time:  36.50772166252136
+/SENSORLESS_D10_T5
+base = 0.9926
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  30.64607071876526
+BER: 0.0000, Robustness: 0.1205
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.71396803855896
+BER: 0.0000, Robustness: 0.1051
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.788552045822144
+BER: 0.0000, Robustness: 0.1007
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.79310917854309
+BER: 0.0000, Robustness: 0.0988
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.818554162979126
+BER: 0.0000, Robustness: 0.1009
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.823206186294556
+BER: 0.0000, Robustness: 0.0975
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.83335828781128
+BER: 0.0000, Robustness: 0.1746
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.838473081588745
+BER: 0.0000, Robustness: 0.1611
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.767128229141235
+BER: 0.0000, Robustness: 0.1383
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.79544687271118
+BER: 0.0000, Robustness: 0.1352
+BER: 0.0001, Robustness: 0.0924
+BER: 0.0010, Robustness: 0.0924
+BER: 0.0100, Robustness: 0.0924
+BER: 0.1000, Robustness: 0.0924
+BER: 0.2000, Robustness: 0.0924
+BER: 0.4000, Robustness: 0.0924
+BER: 0.6000, Robustness: 0.0924
+BER: 0.8000, Robustness: 0.0924
+BER: 1.0000, Robustness: 0.0924
+Evaluation time:  35.80782437324524
+/SENSORLESS_D10_T10
+base = 0.9961
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  69.02801275253296
+BER: 0.0000, Robustness: 0.1207
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  80.76516008377075
+BER: 0.0000, Robustness: 0.1059
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  73.3648271560669
+BER: 0.0000, Robustness: 0.1019
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.39205169677734
+BER: 0.0000, Robustness: 0.0988
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.54816818237305
+BER: 0.0000, Robustness: 0.1024
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.45814418792725
+BER: 0.0000, Robustness: 0.1110
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.62294316291809
+BER: 0.0000, Robustness: 0.1787
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.58199191093445
+BER: 0.0000, Robustness: 0.1650
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.54782199859619
+BER: 0.0000, Robustness: 0.1391
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  72.64950752258301
+BER: 0.0000, Robustness: 0.1375
+BER: 0.0001, Robustness: 0.0921
+BER: 0.0010, Robustness: 0.0921
+BER: 0.0100, Robustness: 0.0921
+BER: 0.1000, Robustness: 0.0921
+BER: 0.2000, Robustness: 0.0921
+BER: 0.4000, Robustness: 0.0921
+BER: 0.6000, Robustness: 0.0921
+BER: 0.8000, Robustness: 0.0921
+BER: 1.0000, Robustness: 0.0921
+Evaluation time:  71.37211513519287
+/MNIST_D5
+base = 0.6995
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4537932872772217
+BER: 0.0000, Robustness: 0.5381
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.453612804412842
+BER: 0.0000, Robustness: 0.5897
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.449848175048828
+BER: 0.0000, Robustness: 0.5109
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4676809310913086
+BER: 0.0000, Robustness: 0.5697
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4554173946380615
+BER: 0.0000, Robustness: 0.5980
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4518113136291504
+BER: 0.0000, Robustness: 0.5395
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4549076557159424
+BER: 0.0000, Robustness: 0.6506
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4556591510772705
+BER: 0.0000, Robustness: 0.5381
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4449057579040527
+BER: 0.0000, Robustness: 0.5298
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.4314024448394775
+BER: 0.0000, Robustness: 0.4548
+BER: 0.0001, Robustness: 0.1623
+BER: 0.0010, Robustness: 0.1623
+BER: 0.0100, Robustness: 0.1623
+BER: 0.1000, Robustness: 0.1623
+BER: 0.2000, Robustness: 0.1623
+BER: 0.4000, Robustness: 0.1623
+BER: 0.6000, Robustness: 0.1623
+BER: 0.8000, Robustness: 0.1623
+BER: 1.0000, Robustness: 0.1623
+Evaluation time:  2.431485414505005
+/MNIST_D10
+base = 0.8722
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.255114316940308
+BER: 0.0000, Robustness: 0.5889
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.260319948196411
+BER: 0.0000, Robustness: 0.5847
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.245975971221924
+BER: 0.0000, Robustness: 0.4955
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.254150152206421
+BER: 0.0000, Robustness: 0.5595
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.239741802215576
+BER: 0.0000, Robustness: 0.6120
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.267440319061279
+BER: 0.0000, Robustness: 0.6018
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.24686074256897
+BER: 0.0000, Robustness: 0.6247
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.249175071716309
+BER: 0.0000, Robustness: 0.5324
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.2446653842926025
+BER: 0.0000, Robustness: 0.4665
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.240009546279907
+BER: 0.0000, Robustness: 0.4186
+BER: 0.0001, Robustness: 0.1301
+BER: 0.0010, Robustness: 0.1301
+BER: 0.0100, Robustness: 0.1301
+BER: 0.1000, Robustness: 0.1301
+BER: 0.2000, Robustness: 0.1301
+BER: 0.4000, Robustness: 0.1301
+BER: 0.6000, Robustness: 0.1301
+BER: 0.8000, Robustness: 0.1301
+BER: 1.0000, Robustness: 0.1301
+Evaluation time:  4.245298385620117
+/MNIST_D5_T5
+base = 0.7721
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.164701700210571
+BER: 0.0000, Robustness: 0.9587
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.136900424957275
+BER: 0.0000, Robustness: 0.9352
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.103487730026245
+BER: 0.0000, Robustness: 0.9450
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.156769752502441
+BER: 0.0000, Robustness: 0.9169
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.116273880004883
+BER: 0.0000, Robustness: 0.9327
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.080733299255371
+BER: 0.0000, Robustness: 0.9302
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.10934329032898
+BER: 0.0000, Robustness: 0.9156
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.05041241645813
+BER: 0.0000, Robustness: 0.9707
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.121724367141724
+BER: 0.0000, Robustness: 0.9494
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.13358736038208
+BER: 0.0000, Robustness: 0.9789
+BER: 0.0001, Robustness: 0.1470
+BER: 0.0010, Robustness: 0.1470
+BER: 0.0100, Robustness: 0.1470
+BER: 0.1000, Robustness: 0.1470
+BER: 0.2000, Robustness: 0.1470
+BER: 0.4000, Robustness: 0.1470
+BER: 0.6000, Robustness: 0.1470
+BER: 0.8000, Robustness: 0.1470
+BER: 1.0000, Robustness: 0.1470
+Evaluation time:  10.128621578216553
+/MNIST_D5_T10
+base = 0.8121
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.634586811065674
+BER: 0.0000, Robustness: 0.9702
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.65837550163269
+BER: 0.0000, Robustness: 0.9495
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.669532775878906
+BER: 0.0000, Robustness: 0.9708
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.626970052719116
+BER: 0.0000, Robustness: 0.9680
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.6721670627594
+BER: 0.0000, Robustness: 0.9631
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.657506227493286
+BER: 0.0000, Robustness: 0.9583
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.628240823745728
+BER: 0.0000, Robustness: 0.9736
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.634700298309326
+BER: 0.0000, Robustness: 0.9789
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.59224247932434
+BER: 0.0000, Robustness: 0.9750
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.623159646987915
+BER: 0.0000, Robustness: 0.9898
+BER: 0.0001, Robustness: 0.1398
+BER: 0.0010, Robustness: 0.1398
+BER: 0.0100, Robustness: 0.1398
+BER: 0.1000, Robustness: 0.1398
+BER: 0.2000, Robustness: 0.1398
+BER: 0.4000, Robustness: 0.1398
+BER: 0.6000, Robustness: 0.1398
+BER: 0.8000, Robustness: 0.1398
+BER: 1.0000, Robustness: 0.1398
+Evaluation time:  19.622113466262817
+/MNIST_D10_T5
+base = 0.9120
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.192216634750366
+BER: 0.0000, Robustness: 0.9414
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.219883680343628
+BER: 0.0000, Robustness: 0.9538
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.23857879638672
+BER: 0.0000, Robustness: 0.9482
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.27399706840515
+BER: 0.0000, Robustness: 0.9558
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.283188343048096
+BER: 0.0000, Robustness: 0.9652
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.259993314743042
+BER: 0.0000, Robustness: 0.9633
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.327183961868286
+BER: 0.0000, Robustness: 0.9647
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.2372145652771
+BER: 0.0000, Robustness: 0.9570
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.245540857315063
+BER: 0.0000, Robustness: 0.9566
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.269574403762817
+BER: 0.0000, Robustness: 0.9644
+BER: 0.0001, Robustness: 0.1245
+BER: 0.0010, Robustness: 0.1245
+BER: 0.0100, Robustness: 0.1245
+BER: 0.1000, Robustness: 0.1245
+BER: 0.2000, Robustness: 0.1245
+BER: 0.4000, Robustness: 0.1245
+BER: 0.6000, Robustness: 0.1245
+BER: 0.8000, Robustness: 0.1245
+BER: 1.0000, Robustness: 0.1245
+Evaluation time:  19.246558904647827
+/MNIST_D10_T10
+base = 0.9359
+BER: 0.0000, Robustness: 1.0000
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.88254141807556
+BER: 0.0000, Robustness: 0.9605
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.8683385848999
+BER: 0.0000, Robustness: 0.9606
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.866631746292114
+BER: 0.0000, Robustness: 0.9621
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.85223889350891
+BER: 0.0000, Robustness: 0.9613
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.92486214637756
+BER: 0.0000, Robustness: 0.9712
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.92442774772644
+BER: 0.0000, Robustness: 0.9732
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.9211847782135
+BER: 0.0000, Robustness: 0.9683
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.89102387428284
+BER: 0.0000, Robustness: 0.9646
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.91485929489136
+BER: 0.0000, Robustness: 0.9653
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.97862887382507
+BER: 0.0000, Robustness: 0.9698
+BER: 0.0001, Robustness: 0.1213
+BER: 0.0010, Robustness: 0.1213
+BER: 0.0100, Robustness: 0.1213
+BER: 0.1000, Robustness: 0.1213
+BER: 0.2000, Robustness: 0.1213
+BER: 0.4000, Robustness: 0.1213
+BER: 0.6000, Robustness: 0.1213
+BER: 0.8000, Robustness: 0.1213
+BER: 1.0000, Robustness: 0.1213
+Evaluation time:  37.94325923919678
+

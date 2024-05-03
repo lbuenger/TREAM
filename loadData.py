@@ -366,7 +366,7 @@ def readFileOccupancy(dataset_path):
         x.append(int(float(values[3])*1000))
         x.append(int(float(values[4])*10))
         x.append(int(float(values[5])*100))
-        Y.append(values[7])
+        Y.append(int(values[7]))
 
         X.append(x)
 
