@@ -3,13 +3,13 @@ import os
 
 def main():
 
-    #src_path = "./results/normal_trees/n_fidx/output.txt"
+    #src_path = "./results/raw/nt/split/output.txt"
     #des_path = "./results/clean/nt/timing_sum.txt"
 
     #src_path = "./results/complete_trees/c_fidx/output.txt"
     #des_path = "./results/clean/ct/timing_sum.txt"
 
-    src_path = "./results/complete_redundant_trees/cr_fidx/output_noAdult.txt"
+    src_path = "./results/raw/crt/split/output.txt"
     des_path = "./results/clean/crt/timing_sum.txt"
 
     out_building = 0
@@ -40,7 +40,7 @@ def main():
         #w.write("rsdt  ,b_time,e_time\n0.0000,\n0.0001,\n0.0010,\n0.0100,\n0.1000,\n0.2000,\n0.4000,\n0.6000,\n0.8000,\n1.0000,")
         w.write("b_time,e_time\n{:.4f}".format(out_building) + "," + "{:.4f}".format(out_evaluation))
 
-    #print(out)
+    print(out_building)
 
 
 #print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))

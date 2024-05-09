@@ -10,14 +10,14 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, preci
 
 def main():
 
-    #src_path = "./results/normal_trees/n_split/"
-    #des_path = "./results/clean/nt/memory.txt"
+    src_path = "./results/raw/nt/split/"
+    des_path = "./results/clean/nt/memory.txt"
 
     #src_path = "./results/complete_trees/c_split/"
     #des_path = "./results/clean/ct/memory.txt"
 
-    src_path = "./results/complete_redundant_trees/cr_split/"
-    des_path = "./results/clean/crt/memory.txt"
+    #src_path = "./results/raw/crt/split/"
+    #des_path = "./results/clean/crt/memory_test.txt"
 
     out = 0
 

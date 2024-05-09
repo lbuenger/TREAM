@@ -3,43 +3,93 @@ import os
 
 def main():
 
-    #src_path = "./results/raw/nt/n_split/"
+    #src_path = "./results/raw/nt/split/"
     #des_path = "./results/clean/nt/res_n_split.txt"
 
-    #src_path = "./results/raw/nt/n_fval/"
+    #src_path = "./results/raw/nt/fval/"
     #des_path = "./results/clean/nt/res_n_fval.txt"
 
-    #src_path = "./results/raw/nt/n_fidx/"
+    #src_path = "./results/raw/nt/fidx/"
     #des_path = "./results/clean/nt/res_n_fidx.txt"
 
-    #src_path = "./results/raw/nt/n_chidx/"
+    #src_path = "./results/raw/nt/chidx/"
     #des_path = "./results/clean/nt/res_n_chidx.txt"
 
 
-    #src_path = "./results/raw/ct/c_split/"
+    #src_path = "./results/raw/ct/split/"
     #des_path = "./results/clean/ct/res_ct_split.txt"
 
-    #src_path = "./results/raw/ct/c_fval/"
+    #src_path = "./results/raw/ct/fval/"
     #des_path = "./results/clean/ct/res_ct_fval.txt"
 
-    #src_path = "./results/raw/ct/c_fidx/"
+    #src_path = "./results/raw/ct/fidx/"
     #des_path = "./results/clean/ct/res_ct_fidx.txt"
 
-    #src_path = "./results/raw/ct/n_chidx/"
+    #src_path = "./results/raw/ct/chidx/"
     #des_path = "./results/clean/ct/res_ct_chidx.txt"
 
 
-    #src_path = "./results/raw/crt/cr_split/"
+    #src_path = "./results/raw/crt/split/"
     #des_path = "./results/clean/crt/res_crt_split.txt"
 
-    #src_path = "./results/raw/crt/cr_fval/"
+    #src_path = "./results/raw/crt/fval/"
     #des_path = "./results/clean/crt/res_crt_fval.txt"
 
-    src_path = "./results/raw/crt/cr_fidx/"
-    des_path = "./results/clean/crt/res_crt_fidx.txt"
+    #src_path = "./results/raw/crt/fidx/"
+    #des_path = "./results/clean/crt/res_crt_fidx.txt"
 
-    #src_path = "./results/raw/nt/n_chidx/"
+    #src_path = "./results/raw/nt/chidx/"
     #des_path = "./results/clean/nt/res_n_chidx.txt"
+
+
+
+    #DT
+    #src_path = "./results/raw/crt/split/"
+    #des_path = "./results/clean/crt/res_crt_split_DT.txt"
+
+    #src_path = "./results/raw/crt/fval/"
+    #des_path = "./results/clean/crt/res_crt_fval_DT.txt"
+
+    #src_path = "./results/raw/crt/fidx/"
+    #des_path = "./results/clean/crt/res_crt_fidx_DT.txt"
+
+
+    #src_path = "./results/raw/nt/split/"
+    #des_path = "./results/clean/crt/res_nt_split_DT.txt"
+
+    #src_path = "./results/raw/nt/fval/"
+    #des_path = "./results/clean/crt/res_nt_fval_DT.txt"
+
+    #src_path = "./results/raw/nt/fidx/"
+    #des_path = "./results/clean/crt/res_nt_fidx_DT.txt"
+
+    #src_path = "./results/raw/nt/chidx/"
+    #des_path = "./results/clean/crt/res_nt_chidx_DT.txt"
+
+
+
+    #RF
+    #src_path = "./results/raw/crt/split/"
+    #des_path = "./results/clean/crt/res_crt_split_RF.txt"
+
+    #src_path = "./results/raw/crt/fval/"
+    #des_path = "./results/clean/crt/res_crt_fval_RF.txt"
+
+    #src_path = "./results/raw/crt/fidx/"
+    #des_path = "./results/clean/crt/res_crt_fidx_RF.txt"
+
+
+    #src_path = "./results/raw/nt/split/"
+    #des_path = "./results/clean/crt/res_nt_split_RF.txt"
+
+    #src_path = "./results/raw/nt/fval/"
+    #des_path = "./results/clean/crt/res_nt_fval_RF.txt"
+
+    #src_path = "./results/raw/nt/fidx/"
+    #des_path = "./results/clean/crt/res_nt_fidx_RF.txt"
+
+    src_path = "./results/raw/nt/chidx/"
+    des_path = "./results/clean/crt/res_nt_chidx_RF.txt"
 
 
     out = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -47,7 +97,10 @@ def main():
     counter = 0
 
     for filename in os.listdir(src_path):
-        if(filename.find("pkl") == -1 and filename.find("output") == -1 and filename.find("result") == -1):
+        if(filename.find("pkl") == -1 and filename.find("output") == -1 and filename.find("result") == -1
+                #and (filename.find("_T5") == -1 and filename.find("_T10") == -1)
+                and (filename.find("_T5") != -1 or filename.find("_T10") != -1)
+        ):
             counter = counter + 1
             #print(filename)
             with open(src_path + filename, 'r') as f:
@@ -63,7 +116,7 @@ def main():
                     #w.write(out + "\n")
     for idx, sum in enumerate(out):
         out[idx] = sum / counter
-    #print(out)
+    print(counter)
 
     with open(des_path, 'w+') as w:
         for idx, sum in enumerate(out):

@@ -3,17 +3,17 @@ import os
 
 def main():
 
-    #src_path = "./results/raw/rsdt/resilience_split/"
-    #des_path = "./results/clean/rsdt/resilience_split/"
+    src_path = "./results/raw/rsdt/split_full/"
+    des_path = "./results/clean/rsdt/"
 
-    #src_path = "./results/raw/rsdt/fval_half/"
-    #des_path = "./results/clean/rsdt/fval_half/"
+    #src_path = "./results/raw/rsdt/fval_full/"
+    #des_path = "./results/clean/rsdt/fval_full/"
 
-    src_path = "./results/raw/rsdt/fidx_half/"
-    des_path = "./results/clean/rsdt/fidx_half/"
+    #src_path = "./results/raw/rsdt/fidx_full/"
+    #des_path = "./results/clean/rsdt/fidx_full/"
 
-    #src_path = "./results/raw/rsdt/chidx_half/"
-    #des_path = "./results/clean/rsdt/chidx_half/"
+    #src_path = "./results/raw/rsdt/chidx_full/"
+    #des_path = "./results/clean/rsdt/chidx_full/"
     out = [
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -61,7 +61,7 @@ def main():
                     w.write(",")
             w.write("\n")
 
-    print(out)
+    #print(out)
 
 
 #print("BER: {:.4f}, Accuracy: {:.4f} ({:.4f},{:.4f})".format(ber, acc_mean, acc_mean - acc_min, acc_max - acc_mean))

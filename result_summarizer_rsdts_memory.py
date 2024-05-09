@@ -10,8 +10,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, preci
 
 def main():
 
-    src_path = "./results/raw/rsdt/fidx_half/"
-    des_path = "./results/clean/rsdt/memory.txt"
+    src_path = "./results/raw/rsdt/split_full/"
+    des_path = "./results/clean/rsdt/memory_full.txt"
     out = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     nodes = 0

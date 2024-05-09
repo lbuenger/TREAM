@@ -3,8 +3,9 @@ import os
 
 def main():
 
-    src_path = "./results/raw/rsdt/timing/timing_all_split_tree.txt"
-    des_path = "./results/clean/rsdt/timing_sum.txt"
+    src_path = "./results/output.txt"
+    des_path = "./results/timing_sum_half.txt"
+
     out_building = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     out_evaluation = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
